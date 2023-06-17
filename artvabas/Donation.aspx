@@ -34,7 +34,7 @@
                 You can decide to purchase this on your own or by artvabas. artvabas will not calculate profit on these cost, you pay what artvabas is paying. 
             </p>
              <p class="lead">
-                What ever you choose
+                What ever you choose it's up to you. If necessary artvabas will guide you with setting up the environment what is needed for the application to run.
             </p>
             <h4 id="aftercareSeeAlso">See also...</h4>
             <p>
