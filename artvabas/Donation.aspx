@@ -4,7 +4,7 @@
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="donationTitle">Donation</h1>
+            <h1 id="donationTitle">Benefaction</h1>
             <p class="lead">
                 This great service artvabas is offering you, doesn't cost much, a matter of fact its peanuts. We only asking a small donation for the effort
                 artvabas have done for you, its more like a appreciation from you to artvabas:
@@ -36,7 +36,7 @@
              <p class="lead">
                 What ever you choose it's up to you. If necessary artvabas will guide you with setting up the environment what is needed for the application to run.
             </p>
-            <h4 id="aftercareSeeAlso">See also...</h4>
+            <h4 id="donationSeeAlso">See also...</h4>
             <p>
                 <a href="Getstarted.aspx" class="btn btn-secondary btn-md">Get started &raquo;</a>
                 <a href="Aftercare.aspx" class="btn btn-success btn-md">Aftercare &raquo;</a>

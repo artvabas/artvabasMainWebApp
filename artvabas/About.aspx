@@ -15,7 +15,7 @@
                  non-profit basis, the only thing artvabas is asking is a small donation for your appreciation. If there are needs of any kind of 
                  Internet related services, such as hosting databases or cloud related networks etc. those cost are fully billed to you, without any profit 
                  from our side (see also 
-                 <a href="Donation.aspx" class=" link-info">Donations</a>).
+                 <a href="Donation.aspx" class="link-info">Donations</a>).
              </p>
             <h3 id="aboutGoalWhy">Why?</h3>
             <p class="lead">
