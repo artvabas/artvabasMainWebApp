@@ -3,8 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="donationTitle">Benefaction</h1>
+        <section class="row" aria-labelledby="donationTitle">
+            <h1 id="donationbenefactionTitle">Benefaction</h1>
             <p class="lead">
                 This great service artvabas is offering you, doesn't cost much, a matter of fact its peanuts. We only asking a small donation for the effort
                 artvabas have done for you, its more like a appreciation from you to artvabas:

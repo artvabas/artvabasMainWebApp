@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aboutTitle">artvabas</h1>
+        <section class="row" aria-labelledby="aboutTitle">
+            <h1 id="aboutartvabasTitle">artvabas</h1>
             <p class="lead">
                 artvabas isn't a company, organization or a institution. artvabas is a individual who has worked as ICT Manager and as Software Engineer
                 for the last 30 years. artvabas love to build software and solving ICT related issues.  

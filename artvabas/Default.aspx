@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <main>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">Software Solutions</h1>
+        <section class="row" aria-labelledby="defaultTitle">
+            <h1 id="defaultsoftwaresulutionsTitle">Software Solutions</h1>
             <p class="lead">If you're looking for custom made software, but don't want the worries about how to develop, maintain, hosting and networking.
                 Then don't look any further, because artvabas can handle a goat, and the one who can handle a goat, can handle everything.</p>
              <p class="lead">artvabas is specialized in developing software solution for non-profit organizations and individuals.

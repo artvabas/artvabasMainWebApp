@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
-         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aftercareTitle">Guarantee</h1>
+         <section class="row" aria-labelledby="aftercareTitle">
+            <h1 id="aftercareguaranteeTitle">Guarantee</h1>
             <p class="lead">
                 After artvabas have deliver your application, what happened then? artvabas will give you two years of guarantee.
                 What does this mean:

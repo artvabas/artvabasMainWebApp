@@ -3,8 +3,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
-        <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="getstartedTitle">Goal</h1>
+        <section class="row" aria-labelledby="getsartedTitle">
+            <h1 id="getstartedgoalTitle">Goal</h1>
             <p class="lead">
                 Before you let artvabas developing an application for you, you should ask yourself a question: "What purpose does the application
                 have?" or "What will it bring to your customers, yourself or employees?"
@@ -46,12 +46,17 @@
             <p class="lead">
                 After your approval and receiving your donation and payment of other cost, artvabas is starting to develop your application. During development
                 you can on-line monitor the progress of your application. You even can anticipate on the progress by placing comments about the progress, issues 
-                that need to be solved or let artvabas know that you want some minor changes.
+                that need to be solved or let artvabas know that you want some changes to be done.
             </p>
             <h1 id="getstartedTesting">Testing</h1>
             <p class="lead">
-                After the development is done the alpha version of your application is ready for internal testing. Now bug reporting is one of the important
-                things to do. ....
+                After the development is done the alpha version of your application is ready for internal testing. Now bug reporting and solving is one of the important
+                things to do, still minor changes can me make. When all the bugs are fixed and your application is running smoothly it's time for the beta version
+                of your application. In this phase external testing is done only for bug reporting and solving. When all the bugs are solved then finally
+                the release version of your application can be published. From this moment, the two years guarantee period has started, see the guarantee section
+                on the 
+                <a href="Aftercare.aspx" class="link-success">aftercare page</a> 
+                of this website.
             </p>
             <h4 id="getstartedSeeAlso">See also...</h4>
             <p>
