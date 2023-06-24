@@ -1,6 +1,15 @@
-﻿table-row-header {
-    background-color:cornflowerblue;
-    width: 20em;
-    color:azure;
-    font-weight:700;
+﻿.avb-contact-control {
+    width: 300px;
 }
+
+.avb-contact-table-size{
+    width: 600px;
+}
+
+.avb-contact-cell-allign{
+    text-align:right;
+    vertical-align:top;
+    width:300px;
+    padding-bottom:10px
+}
+
