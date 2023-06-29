@@ -96,6 +96,15 @@ namespace artvabas
         protected global::System.Web.UI.WebControls.TextBox ContactPhoneNumberTextBox;
 
         /// <summary>
+        /// ContactPhoneNumberRequiredFieldValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ContactPhoneNumberRequiredFieldValidator;
+
+        /// <summary>
         /// ContactCommentsLabel control.
         /// </summary>
         /// <remarks>
@@ -112,14 +121,5 @@ namespace artvabas
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox ContactCommentsTextBox;
-
-        /// <summary>
-        /// ContactSend control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ContactSend;
     }
 }

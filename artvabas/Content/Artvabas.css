@@ -13,3 +13,15 @@
     padding-bottom:10px
 }
 
+.avb-contact-cell-allign-btn {
+    display: flex;
+    justify-content: right;
+}
+
+.avb-contact-btn-send{
+    margin-right: 1.5em;
+}
+
+.avb-contact-Validation-Summary {
+    width: 600px;
+ }

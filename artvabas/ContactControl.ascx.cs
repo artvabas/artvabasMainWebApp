@@ -12,7 +12,7 @@ namespace artvabas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+           
         }
 
         protected void AboutDropDownList_SelectedIndexChanged(object sender, EventArgs e)
@@ -22,13 +22,15 @@ namespace artvabas
             {
                 KindOfPanel.Visible = false;
                 PlatformPanel.Visible = false;
-                ContactCommentsLabel.Text = "What's your question?: &nbsp;";
+                ContactPhoneNumberRequiredFieldValidator.Enabled = false;
+                ContactCommentsLabel.Text = "What's your question comments?: &nbsp;";
             }
             else
             {
                 KindOfPanel.Visible = true;
                 PlatformPanel.Visible = true;
-                ContactCommentsLabel.Text = "What's your idea about the application?: &nbsp;";
+                ContactPhoneNumberRequiredFieldValidator.Enabled = true;
+                ContactCommentsLabel.Text = "What's your idea about the application comments?: &nbsp;";
             }
         }
 
@@ -68,6 +70,16 @@ namespace artvabas
                     PlatformWindowsCheckBox.Checked = true;
                     break;
             }
+        }
+
+        protected void PlatformCustomValidator_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            args.IsValid = PlatformAndroidCheckBox.Checked || PlatformIOSCheckBox.Checked;
+        }
+
+        protected void ContactSend_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid) { }
         }
     }
 }
