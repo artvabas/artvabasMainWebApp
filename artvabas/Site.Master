@@ -41,7 +41,6 @@
             <div class="container">
                 <a class="navbar-brand" runat="server" href="~/">
                     <asp:Image Height="2.5em" Width="2.5em" ImageUrl="~/Images/LogoAVB_816.png" runat="server"/>artvabas
-
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -53,6 +52,13 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                     </ul>
+                    <div> 
+                        <asp:Label runat="server" ForeColor="#999999" ID="ctl06">Language:</asp:Label>
+                        <asp:DropDownList ID="LanguageDropDowmList" CssClass="bg-gradient bg-dark" runat="server" ForeColor="#999999">
+                            <asp:ListItem>nl</asp:ListItem>
+                            <asp:ListItem>en</asp:ListItem>
+                        </asp:DropDownList>
+                    </div>
                 </div>
             </div>
         </nav>

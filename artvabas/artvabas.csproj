@@ -104,6 +104,8 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="Aftercare.aspx" />
+    <Content Include="App_Data\en.xml" />
+    <Content Include="App_Data\nl.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="ContactControl.ascx" />
     <Content Include="Content\artvabas.css" />
@@ -271,9 +273,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<data id ="titel">
+		<value>Mijn Website</value>
+	</data>
+	<data>
+		<welcome>Welkom op mijn website!</welcome>
+	</data>
+	<data>
+		<value>Over Ons</value>
+	</data>
+</root>
