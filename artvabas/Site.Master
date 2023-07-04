@@ -14,7 +14,6 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
 </head>
 <body>
     <form runat="server">
@@ -36,7 +35,6 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-gradient bg-dark">
             <div class="container">
                 <a class="navbar-brand" runat="server" href="~/">
@@ -53,8 +51,8 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                     </ul>
                     <div> 
-                        <asp:Label runat="server" ForeColor="#999999" ID="ctl06">Language:</asp:Label>
-                        <asp:DropDownList ID="LanguageDropDowmList" CssClass="bg-gradient bg-dark" runat="server" ForeColor="#999999">
+                        <asp:Label runat="server" ForeColor="#999999">Language:</asp:Label>
+                        <asp:DropDownList ID="LanguageDropDownList" CssClass="bg-gradient bg-dark" runat="server" ForeColor="#999999" OnSelectedIndexChanged="LanguageDropDownList_SelectedIndexChanged" AutoPostBack="True">
                             <asp:ListItem>nl</asp:ListItem>
                             <asp:ListItem>en</asp:ListItem>
                         </asp:DropDownList>

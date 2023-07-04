@@ -10,12 +10,13 @@
             <h1 id="contacthowtoTitle">artvabas</h1>
             <% 
                 System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
-                xmlDoc.Load(Server.MapPath("~/App_Data/" + currentLanguage + ".xml"));
+                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
                 System.Xml.XmlNodeList language = xmlDoc.GetElementsByTagName("data");
                 //foreach (System.Xml.XmlNode context in language)
                 //{
                 //    Response.Write("<p class=\"lead\">" + context["value"].InnerText + "</p>");
                 //}
+                
             %>
             <%
                 System.Xml.XmlNode context = language[1];

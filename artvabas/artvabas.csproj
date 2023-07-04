@@ -226,6 +226,7 @@
     <Compile Include="ContactControl.ascx.designer.cs">
       <DependentUpon>ContactControl.ascx</DependentUpon>
     </Compile>
+    <Compile Include="CultureLanguage.cs" />
     <Compile Include="Donation.aspx.cs">
       <DependentUpon>Donation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
