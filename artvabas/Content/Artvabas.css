@@ -25,3 +25,10 @@
 .avb-contact-Validation-Summary {
     width: 600px;
  }
+
+.avb-language {
+    display: flex;
+    justify-content:center;
+    margin-bottom:10px;
+    
+}

@@ -51,7 +51,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
                     </ul>
                     <div> 
-                        <asp:Label runat="server" ForeColor="#999999">Language:</asp:Label>
+                        <asp:Image runat="server" Height="2.5em" ImageAlign="Top" ImageUrl="~/Images/nl-en.png" />
                         <asp:DropDownList ID="LanguageDropDownList" CssClass="bg-gradient bg-dark" runat="server" ForeColor="#999999" OnSelectedIndexChanged="LanguageDropDownList_SelectedIndexChanged" AutoPostBack="True">
                             <asp:ListItem>nl</asp:ListItem>
                             <asp:ListItem>en</asp:ListItem>

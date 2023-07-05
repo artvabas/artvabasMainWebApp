@@ -4,31 +4,44 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-        <h3>How to contact.</h3>
+        <% 
+            System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+            xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+            System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("contact_data");
+            System.Xml.XmlNode context;
+            //foreach (System.Xml.XmlNode context in language)
+            //{
+            //    Response.Write("<p class=\"lead\">" + context["value"].InnerText + "</p>");
+            //}
+
+        %>
+        <%
+            context = dataNode[0];
+            Response.Write("<h2 id=\"title\">" + context["title"].InnerText + "</h2>");
+            context = dataNode[1];
+            Response.Write("<h3>" + context["subtitle"].InnerText + "</h3>");
+        %>
          <section class="row" aria-labelledby="contactTitle">
             <h1 id="contacthowtoTitle">artvabas</h1>
-            <% 
-                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
-                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
-                System.Xml.XmlNodeList language = xmlDoc.GetElementsByTagName("data");
-                //foreach (System.Xml.XmlNode context in language)
-                //{
-                //    Response.Write("<p class=\"lead\">" + context["value"].InnerText + "</p>");
-                //}
-                
-            %>
             <%
-                System.Xml.XmlNode context = language[1];
-                Response.Write("<p class=\"lead\">" + context["welcome"].InnerText + "</p>");
+                context = dataNode[2];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
             %>
-            <p class="lead">Under construction</p>
-             <uc1:ContactControl runat="server" ID="ContactControl" />
-            <h4 id="aboutSeeAlso">See also...</h4>
+            <uc1:ContactControl runat="server" ID="ContactControl" />
+            <% 
+                context = dataNode[3];
+                Response.Write("<h4>" + context["see_also_title"].InnerText + "</h4>");
+            %>
             <p>
-                <a href="Getstarted.aspx" class="btn btn-secondary btn-md">Get started &raquo;</a>
-                <a href="Aftercare.aspx" class="btn btn-success btn-md">Aftercare &raquo;</a>
-                <a href="Donation.aspx" class="btn btn-info btn-md">Donation &raquo;</a>
+                 <%
+                    context = dataNode[4];
+                    Response.Write("<a href=\"Getstarted.aspx\" class=\"btn btn-secondary btn-md\">" + context["see_also_button1"].InnerText + " &raquo;</a>&nbsp;");
+                    context = dataNode[5];
+                    Response.Write("<a href=\"Aftercare.aspx\" class=\"btn btn-success btn-md\">" + context["see_also_button2"].InnerText + " &raquo;</a>&nbsp;");
+                    context = dataNode[6];
+                    Response.Write("<a href=\"Donation.aspx\" class=\"btn btn-info btn-md\">" + context["see_also_button3"].InnerText + " &raquo;</a>&nbsp;");
+                %>
+                
             </p>
         </section>
     </main>

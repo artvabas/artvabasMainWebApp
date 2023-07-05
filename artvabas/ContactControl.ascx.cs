@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,7 +15,27 @@ namespace artvabas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            if (!IsPostBack)
+            {
+                SetLanguagesControlContent(CultureLanguage.CurrentLanguage);
+                AboutDropDownList.SelectedIndex = 1;
+                KindOfDropDownList.SelectedIndex = 0;
+            }
+            else
+            {
+                var ctrl = GetControlThatCausedPostBack(Page);
+                if (ctrl.ID == "LanguageDropDownList")
+                {
+                    var selectedAbout = AboutDropDownList.SelectedIndex;
+                    var selectedKindof = KindOfDropDownList.SelectedIndex;
+                    string lang = string.Empty;
+                    if (CultureLanguage.CurrentLanguage == "en") { lang = "nl"; }
+                    else if (CultureLanguage.CurrentLanguage == "nl") { lang = "en"; }
+                    SetLanguagesControlContent (lang);
+                    AboutDropDownList.SelectedIndex = selectedAbout;
+                    KindOfDropDownList.SelectedIndex = selectedKindof;
+                }
+            }
         }
 
         protected void AboutDropDownList_SelectedIndexChanged(object sender, EventArgs e)
@@ -25,14 +46,12 @@ namespace artvabas
                 KindOfPanel.Visible = false;
                 PlatformPanel.Visible = false;
                 ContactPhoneNumberRequiredFieldValidator.Enabled = false;
-                ContactCommentsLabel.Text = "What's your question comments?: &nbsp;";
             }
             else
             {
                 KindOfPanel.Visible = true;
                 PlatformPanel.Visible = true;
                 ContactPhoneNumberRequiredFieldValidator.Enabled = true;
-                ContactCommentsLabel.Text = "What's your idea about the application comments?: &nbsp;";
             }
         }
 
@@ -82,6 +101,38 @@ namespace artvabas
         protected void ContactSend_Click(object sender, EventArgs e)
         {
             if (Page.IsValid) { }
+        }
+
+        private Control GetControlThatCausedPostBack(Page page)
+        {
+            //initialize a control and set it to null
+            Control ctrl = null;
+
+            //get the event target name and find the control
+            string ctrlName = page.Request.Params.Get("__EVENTTARGET");
+            if (!String.IsNullOrEmpty(ctrlName))
+                ctrl = page.FindControl(ctrlName);
+
+            //return the control to the calling method
+            return ctrl;
+        }
+
+        private void SetLanguagesControlContent(string language)
+        {
+            DataSet ds = new DataSet();
+            ds.ReadXml(Server.MapPath("~/App_Data/" + language + "_aboutddl.xml"));
+            AboutDropDownList.DataTextField = "option";
+            AboutDropDownList.DataSource = ds;
+            AboutDropDownList.DataBind();
+
+            ds = new DataSet();
+            ds.ReadXml(Server.MapPath("~/App_Data/" + language + "_kindofddl.xml"));
+            KindOfDropDownList.DataTextField = "option";
+            KindOfDropDownList.DataSource = ds;
+            KindOfDropDownList.DataBind();
+
+            if (language == "en") ContactSend.Text = "Send";
+            else if (language == "nl") ContactSend.Text = "Verzenden";
         }
     }
 }

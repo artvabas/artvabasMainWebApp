@@ -105,7 +105,13 @@
     <Content Include="About.aspx" />
     <Content Include="Aftercare.aspx" />
     <Content Include="App_Data\en.xml" />
+    <Content Include="App_Data\en_aboutddl.xml" />
+    <Content Include="App_Data\en_kindofddl.xml" />
+    <Content Include="App_Data\en_senbtn.xml" />
     <Content Include="App_Data\nl.xml" />
+    <Content Include="App_Data\nl_aboutddl.xml" />
+    <Content Include="App_Data\nl_kindofddl.xml" />
+    <Content Include="App_Data\nl_sendbtn.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="ContactControl.ascx" />
     <Content Include="Content\artvabas.css" />
@@ -133,6 +139,7 @@
     <Content Include="Images\hermien500.png" />
     <Content Include="Images\LogoAVB_816.png" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\nl-en.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

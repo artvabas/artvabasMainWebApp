@@ -1,12 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+English language XML file, used for page contents.
+
+Developed by AvB, aliases Uther, UPendragon.
+Date   : 07-2023
+Version: 1.0
+
+(c) 2023, artvabas
+-->
 <root>
-	<data>
-		<value>My Website</value>
-	</data>
-	<data>
-		<welcome>Welcome to my website!</welcome>
-	</data>
-	<data>
-		<value>About Us</value>
-	</data>
+	<!--Contact.aspx-->
+	
+	<contact_data>
+		<title>Contact</title><!--index 0-->
+	</contact_data>
+	<contact_data>
+		<subtitle>How to contact.</subtitle><!--index 1-->
+	</contact_data>
+	<contact_data><!--index 2-->
+		<paragraph>
+			If you have any question or you want artvabas to build you an application, then please fill in the contact form
+			underneath and click on send.
+		</paragraph>
+	</contact_data>
+	<contact_data>
+		<see_also_title>See also...</see_also_title><!--index 3-->
+	</contact_data>
+	<contact_data>
+		<see_also_button1>Get started</see_also_button1><!--index 4-->
+	</contact_data>
+	<contact_data>
+		<see_also_button2>Aftercare</see_also_button2><!--index 5-->
+	</contact_data>
+	<contact_data>
+		<see_also_button3>Donation</see_also_button3><!--index 6-->
+	</contact_data>
+
+	<!-- ContactControl.ascx -->
+
+	<contact-control-data>
+		<about>You want to contact artvabas about?:</about><!--index 0-->
+	</contact-control-data>
+	<contact-control-data>
+		<kindof>What kind of application(s)?:</kindof><!--index 1-->
+	</contact-control-data>
+	<contact-control-data>
+		<platform>For which platform(s)?:</platform><!--index 2-->
+	</contact-control-data>
+	<contact-control-data>
+		<email>What's your contact email address?:</email><!--index 3-->
+	</contact-control-data>
+	<contact-control-data>
+		<phone>What's your contact phone number?:</phone><!--index 4-->
+	</contact-control-data>
+	<contact-control-data>
+		<letter>Your letter?:</letter><!--index 5-->
+	</contact-control-data>
+
 </root>
+

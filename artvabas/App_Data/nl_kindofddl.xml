@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<contact_kindof_ddl>
+		<option>Mobiel (smart phone/tablet)</option>
+	</contact_kindof_ddl>
+	<contact_kindof_ddl>
+		<option>Desktop (laptop/personal computer)</option>
+	</contact_kindof_ddl>
+	<contact_kindof_ddl>
+		<option>Web (website/web applicatie)</option>
+	</contact_kindof_ddl>
+	<contact_kindof_ddl>
+		<option>Mobiel en Desktop</option>
+	</contact_kindof_ddl>
+	<contact_kindof_ddl>
+		<option>Mobiel en Web</option>
+	</contact_kindof_ddl>
+	<contact_kindof_ddl>
+		<option>Desktop en Web</option>
+	</contact_kindof_ddl>
+	<contact_kindof_ddl>
+		<option>Mobiel, Desktop en Web</option>
+	</contact_kindof_ddl>
+</root>

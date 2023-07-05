@@ -1,12 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Dutch language XML file, used for page contents.
+
+Developed by AvB, aliases Uther, UPendragon.
+Date   : 07-2023
+Version: 1.0
+
+(c) 2023, artvabas
+-->
 <root>
-	<data>
-		<value>Mijn Website</value>
-	</data>
-	<data>
-		<welcome>Welkom op mijn website!</welcome>
-	</data>
-	<data>
-		<value>Over Ons</value>
-	</data>
+	
+	<!--Contact.aspx-->
+	
+	<contact_data>
+		<title>Contact</title><!--index 0-->
+	</contact_data>
+	<contact_data>
+		<subtitle>Hoe contact op te nemen.</subtitle><!--index 1-->
+	</contact_data>
+	<contact_data>
+		<paragraph><!--index 2-->
+			Als u vragen heeft of als u wilt dat artvabas een applicatie voor u bouwt, vul dan het contactformulier in
+			hieronder en klik op verzenden.
+		</paragraph>
+	</contact_data>
+	<contact_data>
+		<see_also_title>Zie ook...</see_also_title><!--index 3-->
+	</contact_data>
+	<contact_data>
+		<see_also_button1>Aan de slag</see_also_button1><!--index 4-->
+	</contact_data>
+	<contact_data>
+		<see_also_button2>Nazorg</see_also_button2><!--index 5-->
+	</contact_data>
+	<contact_data>
+		<see_also_button3>Donatie</see_also_button3><!--index 6-->
+	</contact_data>
+
+	<!-- ContactControl.ascx -->
+
+	<contact-control-data>
+		<about>Waarover wilt u contact opnemem?:</about><!--index 0-->
+	</contact-control-data>
+	<contact-control-data>
+		<kindof>Wat voor soort toepassing(en)?:</kindof><!--index 1-->
+	</contact-control-data>
+	<contact-control-data>
+		<platform>Voor welk(e) platform(en)?:</platform><!--index 2-->
+	</contact-control-data>
+	<contact-control-data>
+		<email>Wat is uw e-mailadres voor contact?:</email><!--index 3-->
+	</contact-control-data>
+	<contact-control-data>
+		<phone>Wat is uw telefoonnummer?:</phone><!--index 4-->
+	</contact-control-data>
+	<contact-control-data>
+		<letter>Uw brief?:</letter><!--index 5-->
+	</contact-control-data>
+
 </root>

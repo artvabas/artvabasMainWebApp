@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<contact_about_ddl>
+		<option>Gewoon een vraag</option>
+	</contact_about_ddl>
+	<contact_about_ddl>
+		<option>Verzoek om een apllicatie te bouwen</option>
+	</contact_about_ddl>
+</root>
