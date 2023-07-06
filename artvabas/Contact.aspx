@@ -9,13 +9,6 @@
             xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
             System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("contact_data");
             System.Xml.XmlNode context;
-            //foreach (System.Xml.XmlNode context in language)
-            //{
-            //    Response.Write("<p class=\"lead\">" + context["value"].InnerText + "</p>");
-            //}
-
-        %>
-        <%
             context = dataNode[0];
             Response.Write("<h2 id=\"title\">" + context["title"].InnerText + "</h2>");
             context = dataNode[1];
@@ -35,11 +28,11 @@
             <p>
                  <%
                     context = dataNode[4];
-                    Response.Write("<a href=\"Getstarted.aspx\" class=\"btn btn-secondary btn-md\">" + context["see_also_button1"].InnerText + " &raquo;</a>&nbsp;");
+                    Response.Write("<a href=\"Getstarted.aspx\" class=\"btn btn-secondary btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
                     context = dataNode[5];
-                    Response.Write("<a href=\"Aftercare.aspx\" class=\"btn btn-success btn-md\">" + context["see_also_button2"].InnerText + " &raquo;</a>&nbsp;");
+                    Response.Write("<a href=\"Aftercare.aspx\" class=\"btn btn-success btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
                     context = dataNode[6];
-                    Response.Write("<a href=\"Donation.aspx\" class=\"btn btn-info btn-md\">" + context["see_also_button3"].InnerText + " &raquo;</a>&nbsp;");
+                    Response.Write("<a href=\"Donation.aspx\" class=\"btn btn-info btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
                 %>
                 
             </p>

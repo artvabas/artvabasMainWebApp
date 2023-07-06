@@ -126,7 +126,11 @@
          <tr>
             <td class="avb-contact-cell-allign">&nbsp;</td>
              <td class="avb-contact-cell-allign-btn">
-                <asp:Button ID="ContactSend" runat="server" CssClass="avb-contact-btn-send" Text="Send" OnClick="ContactSend_Click"/>
+                <%
+                      context = dataNode[6];
+                      ContactSend.Text = context["submit"].InnerText;
+                %>
+                <asp:Button ID="ContactSend" runat="server" CssClass="avb-contact-btn-send" OnClick="ContactSend_Click"/>
             </td>
         </tr>
     </table>

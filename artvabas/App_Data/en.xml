@@ -9,52 +9,178 @@ Version: 1.0
 (c) 2023, artvabas
 -->
 <root>
+	
+	<!--Default.aspx-->
+
+	<default_data>
+		<header>Software Solutions</header><!--node 0-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 1-->
+			If you're looking for custom made software, but don't want the worries about how to develop, maintain, hosting and networking.
+			Then don't look any further, because artvabas can handle a goat, and the one who can handle a goat, can handle everything.
+		</paragraph>
+	</default_data>
+	<default_data>
+		<paragraph><!--node 2-->
+			artvabas is specialized in developing software solution for non-profit organizations and individuals.
+			Not only for developing the software but also for software maintenances, hosting and software networking.
+		</paragraph>
+	</default_data>
+	<default_data>
+		<paragraph><!--node 3-->
+			But the main thing is, you'll be always in control. You decide what and how you want it, and how far our service can go for you.
+			All this for a good price, sometimes for only the expenses or even for free. Yeah we're fun-crazy but very professional, open
+			and transparent. And why? Didn't I tell you about the goat!
+		</paragraph>
+	</default_data>
+	<default_data>
+		<button_link>Read more</button_link><!--node 4-->
+	</default_data>
+	<default_data>
+		<header>Getting started</header><!--node 5-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 6-->
+			How it works? Just fill in the contact form or send us an email with your wishes. We'll make contact with you for a short interview to see
+			if we understand all your desires. Then...
+		</paragraph>
+	</default_data>
+	<default_data>
+		<link>Read more</link><!--node 7-->
+	</default_data>
+	<default_data>
+		<header>Aftercare</header><!--node 8-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 9-->
+			When your application is up and running, the first two years you can enjoy our guarantee program. After this, you can decide
+			to get advantage of one of artvabas maintenance...
+		</paragraph>
+	</default_data>
+	<default_data>
+		<link>Read more</link><!--node 10-->
+	</default_data>
+	<default_data>
+		<header>Donation</header><!--node 11-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 12-->
+			If you are a non-profit organization or an individual the cost can be free or as low as it can be, depends on the application artvabas have to develop for you.
+			In matter of fact, we use a donation system for...
+		</paragraph>
+	</default_data>
+	<default_data>
+		<link>Read more</link><!--node 13-->
+	</default_data>
+	
+	<!--About.aspx-->
+
+	<about_data>
+		<title>About</title><!--node 0-->
+	</about_data>
+	<about_data>
+		<paragraph><!--node 1-->
+			artvabas isn't a company, organization or a institution. artvabas is a individual who has worked as ICT Manager and as Software Engineer
+			for the last 30 years. artvabas love to build software and solving ICT related issues.
+		</paragraph>
+	</about_data>
+	<about_data>
+		<header>Goal</header><!--node 2-->
+	</about_data>
+	<about_data>
+		<paragraph><!--node 3-->
+			artvabas goal is to help non-profit organizations and individuals with their software and ICT related ideas or issues. This on a semi
+			non-profit basis, the only thing artvabas is asking is a small donation for your appreciation. If there are needs of any kind of
+			Internet related services, such as hosting databases or cloud related networks etc. those cost are fully billed to you, without any profit
+			from our side (see also
+		</paragraph>
+	</about_data>
+	<about_data>
+		<link_donation>Donation</link_donation><!--node 4-->
+	</about_data>
+	<about_data>
+		<header>Why?</header><!--node 5-->
+	</about_data>
+	<about_data>
+		<paragraph>	<!--node 6-->
+			Because lots of non-profit organizations, such as; sport clubs, public organization, public movement, foundation of public utility, public institution,
+			various foundations etc. often cope with poor quality of software or ICT related structures. The main reason for this is often money or the knowledge.
+			They often don't have the ability to hire professionals for developing the software they need or for other ICT related solutions. And it is always
+			good to give something back to the society, thats why artvabas is volunteering.
+		</paragraph>
+	</about_data>
+	<about_data>
+		<header>What kind</header><!--node 7-->
+	</about_data>
+	<about_data>
+		<paragraph><!--node 8-->
+			artvabas can develop and maintain all kinds of; mobile (phone, tablet), desktop and web applications. But also databases, IoT (Internet of Things) and
+			cloud solutions.
+		</paragraph>
+	</about_data>
+	<about_data>
+		<see_also_title>See also...</see_also_title><!--node 9-->
+	</about_data>
+	<about_data>
+		<see_also_button>Get started</see_also_button><!--node 10-->
+	</about_data>
+	<about_data>
+		<see_also_button>Aftercare</see_also_button><!--node 11-->
+	</about_data>
+	<about_data>
+		<see_also_button>Donation</see_also_button><!--node 12-->
+	</about_data>
+	
 	<!--Contact.aspx-->
 	
 	<contact_data>
-		<title>Contact</title><!--index 0-->
+		<title>Contact</title><!--node 0-->
 	</contact_data>
 	<contact_data>
-		<subtitle>How to contact.</subtitle><!--index 1-->
+		<subtitle>How to contact.</subtitle><!--node 1-->
 	</contact_data>
-	<contact_data><!--index 2-->
+	<contact_data><!--node 2-->
 		<paragraph>
 			If you have any question or you want artvabas to build you an application, then please fill in the contact form
 			underneath and click on send.
 		</paragraph>
 	</contact_data>
 	<contact_data>
-		<see_also_title>See also...</see_also_title><!--index 3-->
+		<see_also_title>See also...</see_also_title><!--node 3-->
 	</contact_data>
 	<contact_data>
-		<see_also_button1>Get started</see_also_button1><!--index 4-->
+		<see_also_button>Get started</see_also_button><!--node 4-->
 	</contact_data>
 	<contact_data>
-		<see_also_button2>Aftercare</see_also_button2><!--index 5-->
+		<see_also_button>Aftercare</see_also_button><!--node 5-->
 	</contact_data>
 	<contact_data>
-		<see_also_button3>Donation</see_also_button3><!--index 6-->
+		<see_also_button>Donation</see_also_button><!--node 6-->
 	</contact_data>
 
 	<!-- ContactControl.ascx -->
 
 	<contact-control-data>
-		<about>You want to contact artvabas about?:</about><!--index 0-->
+		<about>You want to contact artvabas about?:</about><!--node 0-->
 	</contact-control-data>
 	<contact-control-data>
-		<kindof>What kind of application(s)?:</kindof><!--index 1-->
+		<kindof>What kind of application(s)?:</kindof><!--node 1-->
 	</contact-control-data>
 	<contact-control-data>
-		<platform>For which platform(s)?:</platform><!--index 2-->
+		<platform>For which platform(s)?:</platform><!--node 2-->
 	</contact-control-data>
 	<contact-control-data>
-		<email>What's your contact email address?:</email><!--index 3-->
+		<email>What's your contact email address?:</email><!--node 3-->
 	</contact-control-data>
 	<contact-control-data>
-		<phone>What's your contact phone number?:</phone><!--index 4-->
+		<phone>What's your contact phone number?:</phone><!--node 4-->
 	</contact-control-data>
 	<contact-control-data>
-		<letter>Your letter?:</letter><!--index 5-->
+		<letter>Your letter?:</letter><!--node 5-->
+	</contact-control-data>
+	<contact-control-data>
+		<submit>Send</submit><!-- node 6-->
 	</contact-control-data>
 
 </root>

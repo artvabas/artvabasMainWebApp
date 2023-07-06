@@ -130,9 +130,6 @@ namespace artvabas
             KindOfDropDownList.DataTextField = "option";
             KindOfDropDownList.DataSource = ds;
             KindOfDropDownList.DataBind();
-
-            if (language == "en") ContactSend.Text = "Send";
-            else if (language == "nl") ContactSend.Text = "Verzenden";
         }
     }
 }

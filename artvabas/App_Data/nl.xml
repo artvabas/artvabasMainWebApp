@@ -9,6 +9,133 @@ Version: 1.0
 (c) 2023, artvabas
 -->
 <root>
+
+	<!--Default.aspx-->
+
+	<default_data>
+		<header>Software Solutions</header><!--node 0-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 1-->
+			Als u op zoek bent naar op maat gemaakte software, maar niet de zorgen wilt hebben over het ontwikkelen, onderhouden, 
+			hosten en netwerken. Zoek dan niet verder, want artvabas kan een geit aan, en degene die een geit aankan, kan alles aan.
+		</paragraph>
+	</default_data>
+	<default_data>
+		<paragraph><!--node 2-->
+			artvabas is gespecialiseerd in het ontwikkelen van software oplossingen voor non-profit organisaties en particulieren. 
+			Niet alleen voor het ontwikkelen van de software, maar ook voor softwareonderhoud, hosting en softwarenetwerken.
+		</paragraph>
+	</default_data>
+	<default_data>
+		<paragraph><!--node 3-->
+			Maar het belangrijkste is dat je altijd de controle hebt. U bepaalt zelf wat en hoe u het wilt, en hoe ver onze 
+			service voor u kan gaan. Dit alles voor een goede prijs, soms alleen voor de kosten of zelfs gratis. Ja, we zijn 
+			leuk-gek maar zeer professioneel, open en transparant. En waarom? Heb ik je niet verteld over de geit!
+		</paragraph>
+	</default_data>
+	<default_data>
+		<button_link>Lees verder</button_link><!--node 4-->
+	</default_data>
+	<default_data>
+		<header>Aan de slag</header><!--node 5-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 6-->
+			Hoe het werkt? Vul het contactformulier in of stuur ons een e-mail met uw wensen. We nemen contact met je op voor een 
+			kort interview om te zien als we al uw wensen begrijpen. Dan...
+		</paragraph>
+	</default_data>
+	<default_data>
+		<link>Lees verder</link><!--node 7-->
+	</default_data>
+	<default_data>
+		<header>Nazorg</header><!--node 8-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 9-->
+			Wanneer uw aanvraag operationeel is, kunt u de eerste twee jaar genieten van ons garantieprogramma. Hierna kunt u 
+			beslissen om te profiteren van een van artvabas onderhoud...
+		</paragraph>
+	</default_data>
+	<default_data>
+		<link>Lees verder</link><!--node 10-->
+	</default_data>
+	<default_data>
+		<header>Schenking</header><!--node 11-->
+	</default_data>
+	<default_data>
+		<paragraph><!--node 12-->
+			Als u een non-profitorganisatie of een individu bent, kunnen de kosten gratis of zo laag mogelijk zijn, afhankelijk 
+			van de toepassing die artvabas voor u moet ontwikkelen. In feite gebruiken we een donatiesysteem voor...
+		</paragraph>
+	</default_data>
+	<default_data>
+		<link>Lees verder</link><!--node 13-->
+	</default_data>
+
+	<!--About.aspx-->
+
+	<about_data>
+		<title>Over</title><!--index 0-->
+	</about_data>
+
+	<about_data>
+		<paragraph><!--index 1-->
+			artvabas is geen bedrijf, organisatie of instelling. artvabas is een persoon die heeft gewerkt als ICT Manager en 
+			als Software Engineer voor de laatste 30 jaar. artvabas houdt ervan om software te bouwen en ICT gerelateerde vraagstukken op te lossen.
+		</paragraph>
+	</about_data>
+	<about_data>
+		<header>Doel</header><!--index 2-->
+	</about_data>
+	<about_data>
+		<paragraph><!--index 3-->
+			artvabas doel is om non-profit organisaties en individuen te helpen met hun software en ICT gerelateerde ideeën of 
+			problemen. Dit op een semi Non-profit basis, het enige wat artvabas vraagt is een kleine donatie voor uw waardering. 
+			Alleen de kosten van Internet gerelateerde diensten, zoals het hosten van databases of cloud gerelateerde netwerken, 
+			enz. Deze kosten worden volledig aan u gefactureerd, zonder enige winst van onze kant 
+			(zie ook
+		</paragraph>
+	</about_data>
+	<about_data>
+		<link_donation>Donation</link_donation><!--index 4-->
+	</about_data>
+	<about_data>
+		<header>Waarom?</header><!--index 5-->
+	</about_data>
+	<about_data>
+		<paragraph><!--index 6-->
+			Want veel non-profit organisaties, zoals; sportclubs, publieke organisatie, stichting van openbaar nut, openbare 
+			instelling, vaak moeten werken met niet geperfectioneerde software of ICT-gerelateerde structuren. De belangrijkste 
+			reden hiervoor is vaak geld of de kennis. Ze hebben vaak niet de mogelijkheid om professionals in te huren voor het 
+			ontwikkelen van de software die ze nodig hebben of voor andere ICT-gerelateerde oplossingen. En het is altijd goed om 
+			iets terug te doen voor de maatschappij, daarom doet artvabas dit als vrijwilligerswerk.
+		</paragraph>
+	</about_data>
+	<about_data>
+		<header>Wat</header><!--index 7-->
+	</about_data>
+	<about_data>
+		<paragraph>
+			<!--index 8-->
+			artvabas kan allerlei soorten software ontwikkelen en onderhouden; mobiel (telefoon, tablet), desktop en 
+			webapplicaties. Maar ook databases, IoT (Internet of Things) en Cloud oplossingen.
+		</paragraph>
+	</about_data>
+
+	<about_data>
+		<see_also_title>Zie ook...</see_also_title><!--index 9-->
+	</about_data>
+	<about_data>
+		<see_also_button>Aan de slag</see_also_button><!--index 10-->
+	</about_data>
+	<about_data>
+		<see_also_button>Nazorg</see_also_button><!--index 11-->
+	</about_data>
+	<about_data>
+		<see_also_button>Donatie</see_also_button><!--index 12-->
+	</about_data>
 	
 	<!--Contact.aspx-->
 	
@@ -28,13 +155,13 @@ Version: 1.0
 		<see_also_title>Zie ook...</see_also_title><!--index 3-->
 	</contact_data>
 	<contact_data>
-		<see_also_button1>Aan de slag</see_also_button1><!--index 4-->
+		<see_also_button>Aan de slag</see_also_button><!--index 4-->
 	</contact_data>
 	<contact_data>
-		<see_also_button2>Nazorg</see_also_button2><!--index 5-->
+		<see_also_button>Nazorg</see_also_button><!--index 5-->
 	</contact_data>
 	<contact_data>
-		<see_also_button3>Donatie</see_also_button3><!--index 6-->
+		<see_also_button>Donatie</see_also_button><!--index 6-->
 	</contact_data>
 
 	<!-- ContactControl.ascx -->
@@ -56,6 +183,9 @@ Version: 1.0
 	</contact-control-data>
 	<contact-control-data>
 		<letter>Uw brief?:</letter><!--index 5-->
+	</contact-control-data>
+	<contact-control-data>
+		<submit>Verzenden</submit><!-- index 6-->
 	</contact-control-data>
 
 </root>

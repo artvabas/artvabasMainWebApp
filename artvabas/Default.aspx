@@ -3,49 +3,70 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main>
         <section class="row" aria-labelledby="defaultTitle">
-            <h1 id="defaultsoftwaresulutionsTitle">Software Solutions</h1>
-            <p class="lead">If you're looking for custom made software, but don't want the worries about how to develop, maintain, hosting and networking.
-                Then don't look any further, because artvabas can handle a goat, and the one who can handle a goat, can handle everything.</p>
-             <p class="lead">artvabas is specialized in developing software solution for non-profit organizations and individuals.
-                Not only for developing the software but also for software maintenances, hosting and software networking.</p>
-            <p class="lead">But the main thing is, you'll be always in control. You decide what and how you want it, and how far our service can go for you.
-                All this for a good price, sometimes for only the expenses or even for free. Yeah we're fun-crazy but very professional, open
-                and transparent. And why? Didn't I tell you about the goat!</p>
-            <p><a href="About.aspx" class="btn btn-primary btn-md">Read more &raquo;</a></p>
+            <% 
+                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("default_data");
+                System.Xml.XmlNode context;
+                context = dataNode[0];
+                Response.Write("<h1 id=\"defaultsoftwaresulutionsTitle\">" + context["header"].InnerText + "</h1>");
+                context = dataNode[1];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                context = dataNode[2];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                context = dataNode[3];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+            %>
+            <p>
+                <%
+                    context = dataNode[4];
+                    Response.Write("<a href=\"Abou.aspx\" class=\"btn btn-primary btn-md\">" + context["button_link"].InnerText + " &raquo;</a>&nbsp;");
+                %>
+            </p>
         </section>
-
         <div class="row">
             <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
+                <%
+                    context = dataNode[5];
+                    Response.Write("<h2 id=\"gettingStartedTitle\">" + context["header"].InnerText + "</h2>");
+                    context = dataNode[6];
+                    Response.Write("<p>" + context["paragraph"].InnerText);
+                %>
                 <p>
-                   How it works? Just fill in the contact form or send us an email with your wishes. We'll make contact with you for a short interview to see 
-                    if we understand all your desires. Then...
-                </p>
-                <p>
-                    <a class="link-secondary" href="GetStarted.aspx">Read more &raquo;</a>
+                    <%
+                        context = dataNode[7];
+                        Response.Write("<a class=\"link-secondary\" href=\"GetStarted.aspx\"\">" + context["link"].InnerText + " &raquo;</a>");
+                    %>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="aftercareTitle">
-                <h2 id="aftercareTitle">Aftercare</h2>
+                <%
+                    context = dataNode[8];
+                    Response.Write("<h2 id=\"aftercareTitle\">" + context["header"].InnerText + "</h2>");
+                    context = dataNode[9];
+                    Response.Write("<p>" + context["paragraph"].InnerText);
+                %>
                 <p>
-                    When your application is up and running, the first two years you can enjoy our guarantee program. After this, you can decide
-                    to get advantage of one of artvabas maintenance...
-                </p>
-                <p>
-                    <a class="link-success" href="Aftercare.aspx">Read more &raquo;</a>
+                    <%
+                        context = dataNode[10];
+                        Response.Write("<a class=\"link-success\" href=\"Aftercare.aspx\"\">" + context["link"].InnerText + " &raquo;</a>");
+                    %>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="donationTitle">
-                <h2 id="donationTitle">Donation</h2>
+                <%
+                    context = dataNode[11];
+                    Response.Write("<h2 id=\"donationTitle\">" + context["header"].InnerText + "</h2>");
+                    context = dataNode[12];
+                    Response.Write("<p>" + context["paragraph"].InnerText);
+                %>
                 <p>
-                    If you are a non-profit organization or an individual the cost can be free or as low as it can be, depends on the application artvabas have to develop for you.
-                    In matter of fact, we use a donation system for...
-                </p>
-                <p>
-                    <a class="link-info" href="Donation.aspx">Read more &raquo;</a>
+                    <%
+                        context = dataNode[13];
+                        Response.Write("<a class=\"link-info\" href=\"Donation.aspx\"\">" + context["link"].InnerText + " &raquo;</a>");
+                    %>
                 </p>
             </section>
         </div>
     </main>
-
 </asp:Content>

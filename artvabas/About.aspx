@@ -2,38 +2,45 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
+        <% 
+            System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+            xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+            System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("about_data");
+            System.Xml.XmlNode context;
+            context = dataNode[0];
+            Response.Write("<h2 id=\"title\">" + context["title"].InnerText + "</h2>");
+        %>
         <section class="row" aria-labelledby="aboutTitle">
             <h1 id="aboutartvabasTitle">artvabas</h1>
-            <p class="lead">
-                artvabas isn't a company, organization or a institution. artvabas is a individual who has worked as ICT Manager and as Software Engineer
-                for the last 30 years. artvabas love to build software and solving ICT related issues.  
-            </p>
-            <h1 id="aboutGoal">Goal</h1>
-             <p class="lead">
-                 artvabas goal is to help non-profit organizations and individuals with their software and ICT related ideas or issues. This on a semi
-                 non-profit basis, the only thing artvabas is asking is a small donation for your appreciation. If there are needs of any kind of 
-                 Internet related services, such as hosting databases or cloud related networks etc. those cost are fully billed to you, without any profit 
-                 from our side (see also 
-                 <a href="Donation.aspx" class="link-info">Donations</a>).
-             </p>
-            <h3 id="aboutGoalWhy">Why?</h3>
-            <p class="lead">
-                Because lots of non-profit organizations, such as; sport clubs, public organization, public movement, foundation of public utility, public institution,
-                various foundations etc. often cope with poor quality of software or ICT related structures. The main reason for this is often money or the knowledge.
-                They often don't have the ability to hire professionals for developing the software they need or for other ICT related solutions. And it is always
-                good to give something back to the society, thats why artvabas is volunteering.
-            </p>
-            <h1 id="aboutWhatKind">What kind</h1>
-             <p class="lead">
-                 artvabas can develop and maintain all kinds of; mobile (phone, tablet), desktop and web applications. But also databases, IoT (Internet of Things) and
-                 cloud solutions. 
-             </p>
-            <h4 id="aboutSeeAlso">See also...</h4>
+            <%
+                context = dataNode[1];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+                context = dataNode[2];
+                Response.Write("<h1 id=\"aboutGoal\">" + context["header"].InnerText + "</h1>");
+                context = dataNode[3];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                context = dataNode[4];
+                Response.Write("<a href=\"Donation.aspx\" class=\"link-info\">" + context["link_donation"].InnerText + ")</a></p>");
+                context = dataNode[5];
+                Response.Write("<h3 id=\"aboutGoalWhy\">" + context["header"].InnerText + "</h3>");
+                context = dataNode[6];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+                context = dataNode[7];
+                Response.Write("<h1 id=\"aboutWhatKind\">" + context["header"].InnerText + "</h1>");
+                context = dataNode[8];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+                 context = dataNode[9];
+                Response.Write("<h4 id=\"aboutSeeAlso\">" + context["see_also_title"].InnerText + "</h4>");
+            %>
             <p>
-                <a href="Getstarted.aspx" class="btn btn-secondary btn-md">Get started &raquo;</a>
-                <a href="Aftercare.aspx" class="btn btn-success btn-md">Aftercare &raquo;</a>
-                <a href="Donation.aspx" class="btn btn-info btn-md">Donation &raquo;</a>
+                <%
+                    context = dataNode[10];
+                    Response.Write("<a href=\"Getstarted.aspx\" class=\"btn btn-secondary btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
+                    context = dataNode[11];
+                    Response.Write("<a href=\"Aftercare.aspx\" class=\"btn btn-success btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
+                    context = dataNode[12];
+                    Response.Write("<a href=\"Donation.aspx\" class=\"btn btn-info btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
+                %>
             </p>
         </section>
     </main>
