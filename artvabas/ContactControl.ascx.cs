@@ -24,16 +24,19 @@ namespace artvabas
             else
             {
                 var ctrl = GetControlThatCausedPostBack(Page);
-                if (ctrl.ID == "LanguageDropDownList")
+                if (ctrl != null)
                 {
-                    var selectedAbout = AboutDropDownList.SelectedIndex;
-                    var selectedKindof = KindOfDropDownList.SelectedIndex;
-                    string lang = string.Empty;
-                    if (CultureLanguage.CurrentLanguage == "en") { lang = "nl"; }
-                    else if (CultureLanguage.CurrentLanguage == "nl") { lang = "en"; }
-                    SetLanguagesControlContent (lang);
-                    AboutDropDownList.SelectedIndex = selectedAbout;
-                    KindOfDropDownList.SelectedIndex = selectedKindof;
+                    if (ctrl.ID == "LanguageDropDownList")
+                    {
+                        var selectedAbout = AboutDropDownList.SelectedIndex;
+                        var selectedKindof = KindOfDropDownList.SelectedIndex;
+                        string lang = string.Empty;
+                        if (CultureLanguage.CurrentLanguage == "en") { lang = "nl"; }
+                        else if (CultureLanguage.CurrentLanguage == "nl") { lang = "en"; }
+                        SetLanguagesControlContent(lang);
+                        AboutDropDownList.SelectedIndex = selectedAbout;
+                        KindOfDropDownList.SelectedIndex = selectedKindof;
+                    }
                 }
             }
         }

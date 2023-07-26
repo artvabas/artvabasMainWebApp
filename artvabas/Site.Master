@@ -14,8 +14,29 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+		function showPopup() {
+			var popup = document.getElementById("pop-up");
+			popup.style.display = "block";
+		}
+		function hidePopup() {
+			var popup = document.getElementById("pop-up");
+			popup.style.display = "none";
+		}
+    </script>
 </head>
 <body>
+    <div id="pop-up" style="display:none; position:absolute; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5);">
+		<div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px;">
+			<h1>Welkom</h1>
+			<p>Deze website is onder constructie, daardoor inactief!</p>
+            <p>In de tweede week van augustus is deze website weer actief.</p>
+            <h1>Welcome</h1>
+			<p>This website is under construction and therefore inactive!</p>
+            <p>In the second week of August this website is active again.</p>
+			<button onclick="hidePopup()">OK</button>
+		</div>
+	</div>
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>

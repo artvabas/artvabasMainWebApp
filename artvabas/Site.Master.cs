@@ -24,7 +24,7 @@ namespace artvabas
 
             // Is this function trigged because of first time loading or because of navigation between pages?
             if (!IsPostBack)
-            {
+            {   
                 // Yes, do we already have the device language setting?
                 if (!CultureLanguage.HaveDeviceCultureLanguage)
                 {
@@ -33,6 +33,7 @@ namespace artvabas
                     CultureLanguage.CurrentLanguage = culture.TwoLetterISOLanguageName;
                     LanguageDropDownList.SelectedValue = CultureLanguage.CurrentLanguage;
                     CultureLanguage.HaveDeviceCultureLanguage = true;
+                    ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "pop-up", "showPopup();", true);
 
                 }
                 else
