@@ -2,7 +2,7 @@
     width: 300px;
 }
 
-.avb-contact-table-size{
+div.avb-contact-table-size{
     width: 600px;
 }
 
@@ -13,13 +13,16 @@
     padding-bottom:10px
 }
 
-.avb-contact-cell-allign-btn {
+div.avb-contact-cell-allign-btn {
     display: flex;
-    justify-content: right;
+    justify-content: left;
+    width: 100pc;
+    border:5px solid red;
 }
 
 .avb-contact-btn-send{
-    margin-right: 1.5em;
+    margin-right: 3.5em;
+ 
 }
 
 .avb-contact-Validation-Summary {
