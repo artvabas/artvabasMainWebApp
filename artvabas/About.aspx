@@ -29,7 +29,7 @@
                 Response.Write("<h1 id=\"aboutWhatKind\">" + context["header"].InnerText + "</h1>");
                 context = dataNode[8];
                 Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
-                 context = dataNode[9];
+                context = dataNode[9];
                 Response.Write("<h4 id=\"aboutSeeAlso\">" + context["see_also_title"].InnerText + "</h4>");
             %>
             <p>

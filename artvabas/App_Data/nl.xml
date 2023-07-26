@@ -188,4 +188,117 @@ Version: 1.0
 		<submit>Verzenden</submit><!-- index 6-->
 	</contact-control-data>
 
+	<!--GetStarted.aspx-->
+
+	<getstarted_data>
+		<title>Aan de slag</title><!-- index 0-->
+	</getstarted_data>
+	<getstarted_data>
+		<header>Doel</header><!-- index 1-->
+	</getstarted_data>
+	<getstarted_data><!-- index 2-->
+		<paragraph>
+			Voordat u artvabas een applicatie voor u laat ontwikkelen, moet u uzelf een vraag stellen: "Welk doel moet de 
+			applicatie hebben?" of "Wat levert het uw klanten, uzelf of werknemers op?"
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data><!-- index 3-->
+		<paragraph>
+			Het is belangrijk om dit in gedachten te houden, want het ontwikkelen van een applicatie omwille van het hebben van 
+			een applicatie heeft geen toegevoegde waarde. Natuurlijk, als u erop staat en wilt dat artvabas met al uw kracht een 
+			applicatie ontwikkelt, dan zal artvabas deze natuurlijk voor u ontwikkelen. Toch is het zonde als de applicatie aan 
+			het "verstoffen" is in bijvoorbeeld je apparaat of in een soort applicatiewinkel.
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data>
+		<header>Wat</header><!-- index 4-->
+	</getstarted_data>
+	<getstarted_data><!-- index 5-->
+		<paragraph>
+			Met de vragen; Wat de applicatie moet kunnen? Wie de eindgebruikers van de applicatie zullen zijn? Welk doel de 
+			applicatie heeft? Wordt vaak duidelijk wat voor soort applicatie er gebouwd gaat worden. Dit kan bijvoorbeeld zijn; 
+			een applicatie voor het Windows-platform (desktop/laptop/tablet), voor de iPhone of iPad (iOS-platform), 
+			een applicatie die geschikt is voor het Android-platform (mobiel / tablet) of een applicatie wat op	meerderen of alle 
+			platformen moet kunnen functioneren.
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data><!-- index 6-->
+		<paragraph>
+			Wat ook mogelijk is, is het ontwikkelen van een webapplicatie. Het grote voordeel van een webapplicatie is dat het 
+			platform onafhankelijk gebruikt kan worden. En alles wat je nodig hebt is een recente browser en een enigszins 
+			fatsoenlijke internetverbinding. Gelukkig leven we in een wereld waarin dat geen probleem meer hoeft te zijn. 
+			Zowel thuis, onderweg als op kantoor is iedereen tegenwoordig online.
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data>
+		<header>Dan...</header><!-- index 7-->
+	</getstarted_data>
+	<getstarted_data><!-- index 8-->
+		<paragraph_start>
+			Nadat u hebt uitgezocht, wat voor soort en het doel wat uw applicatie moet zijn en moet doen. Kunt u contact opnemen met 
+			artvabas door in te vullen het contactformulier op de
+		</paragraph_start>
+	</getstarted_data>
+	<getstarted_data>
+		<link>contactpagina</link><!-- index 9-->
+	</getstarted_data>
+	<getstarted_data>
+		<paragraph_end>van deze website.</paragraph_end><!-- index 10-->
+	</getstarted_data>
+	<getstarted_data><!-- index 11-->
+		<paragraph>
+			Wanneer artvabas uw aanvraag heeft ontvangen, neemt artvabas contact met u op voor een gesprek over de applicatie die 
+			u wilt laten bouwen. Dan zal artvabas een soort blauwdrukken maken van uw aanvraag, blauwdrukken van; visualisatie, 
+			data/communicatiestromen, externe kosten en eventuele anderen indien nodig.
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data><!-- index 12-->
+		<paragraph>
+			Wanneer deze blauwdrukken klaar zijn, zal artvabas een afspraak met u (en uw andere deelnames) maken om de 
+			blauwdrukken te presenteren. Houd er rekening mee dat dit slechts blauwdrukken zijn, alles kan nog worden veranderd. 
+			Na uw feedback gaat artvabas terug naar de tekentafel en verandert de blauwdrukken waar nodig. Dan maakt artvabas een 
+			nieuwe afspraak om de aangepaste blauwdrukken te presenteren, indien nodig kunnen kleine aanpassing gedaan worden. 
+			Dan is het aan jou om artvabas de goedkeuring te geven om uw aanvraag te ontwikkelen.
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data>
+		<header>Tijdens de ontwikkeling</header><!-- index 13-->
+	</getstarted_data>
+	<getstarted_data><!-- index 14-->
+		<paragraph>
+			Na uw goedkeuring en ontvangst van uw donatie en betaling van andere kosten, begint artvabas met het ontwikkelen van 
+			uw applicatie. Tijdens de ontwikkeling kunt U online de voortgang van uw aanvraag volgen. U kunt zelfs anticiperen op 
+			de voortgang door opmerkingen te plaatsen over de voortgang, problemen oplossigen of laat artvabas weten dat u wilt dat er 
+			enkele wijzigingen worden aangebracht.
+		</paragraph>
+	</getstarted_data>
+	<getstarted_data>
+		<header>Testen</header><!-- index 15-->
+	</getstarted_data>
+	<getstarted_data><!-- index 16-->
+		<paragraph_start>
+			Nadat de ontwikkeling is voltooid, is de alfaversie van uw toepassing klaar voor interne tests. Nu is het melden en 
+			oplossen van bugs een van de belangrijke dingen om te doen, nog steeds kunnen kleine veranderingen gemaakt worden. 
+			Wanneer alle bugs zijn opgelost en uw applicatie soepel draait, is het tijd voor de bètaversie van uw applicatie. 
+			In deze fase wordt extern testen alleen gedaan voor het melden en oplossen van bugs. Wanneer alle bugs zijn opgelost, 
+			dan kan eindelijk de releaseversie van uw applicatie worden gepubliceerd. Vanaf dit moment is de garantieperiode van 
+			twee jaar ingegaan, zie het garantiegedeelte op de
+		</paragraph_start>
+	</getstarted_data>
+	<getstarted_data>
+		<link>nazorg pagina</link><!-- index 17-->
+	</getstarted_data>
+	<getstarted_data>
+		<paragraph_end>van deze website.</paragraph_end><!-- index 18-->
+	</getstarted_data>
+	<getstarted_data>
+		<see_also_title>Zie ook...</see_also_title><!-- index 19-->
+	</getstarted_data>
+	<getstarted_data>
+		<see_also_button>Nazorg</see_also_button><!-- index 20-->
+	</getstarted_data>
+	<getstarted_data>
+		<see_also_button>Donatie</see_also_button><!-- index 21-->
+	</getstarted_data>
+
 </root>

@@ -20,7 +20,7 @@
             <p>
                 <%
                     context = dataNode[4];
-                    Response.Write("<a href=\"Abou.aspx\" class=\"btn btn-primary btn-md\">" + context["button_link"].InnerText + " &raquo;</a>&nbsp;");
+                    Response.Write("<a href=\"About.aspx\" class=\"btn btn-primary btn-md\">" + context["button_link"].InnerText + " &raquo;</a>&nbsp;");
                 %>
             </p>
         </section>
