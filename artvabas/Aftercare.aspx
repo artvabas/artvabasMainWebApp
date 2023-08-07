@@ -36,12 +36,12 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td>&nbsp;Bug fixes (software related) </td>
+                    <td>&nbsp;Bug fixes (software related)</td>
                     <td>X</td>
                     <td>X</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;Security fixes on related parts.</td>
+                    <td>&nbsp;Security fixes on related parts</td>
                     <td>X</td>
                     <td>X</td>
                </tr>
@@ -90,13 +90,13 @@
                     <td>X</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;Bug fixes (software related) </td>
+                    <td>&nbsp;Bug fixes (software related)</td>
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;Security fixes on related parts.</td>
+                    <td>&nbsp;Security fixes on related parts</td>
                     <td>X</td>
                     <td>X</td>
                     <td>X</td>

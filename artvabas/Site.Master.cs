@@ -24,7 +24,8 @@ namespace artvabas
 
             // Is this function trigged because of first time loading or because of navigation between pages?
             if (!IsPostBack)
-            {   
+            {
+                Response.Headers.Remove("Set-Cookie");
                 // Yes, do we already have the device language setting?
                 if (!CultureLanguage.HaveDeviceCultureLanguage)
                 {

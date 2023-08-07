@@ -301,4 +301,277 @@ Version: 1.0
 		<see_also_button>Donatie</see_also_button><!-- index 21-->
 	</getstarted_data>
 
+	<!--Aftercare.aspx-->
+
+	<aftercare_data>
+		<title>Nazorg.</title>
+		<!-- node 0-->
+	</aftercare_data>
+	<aftercare_data>
+		<header>Garantie</header>
+		<!-- node 1-->
+	</aftercare_data>
+	<aftercare-data>
+		<paragraph>
+			Wat gebeurde er nadat artvabas uw aanvraag heeft opgeleverd? Artvabas geeft u dan twee jaar garantie. Wat betekent dit:
+		</paragraph>
+	</aftercare-data>
+
+	<aftercare_data>
+		<table-row>Garantie</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Eerste jaar</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Tweede jaar</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Kleine verbeteringen van bestaande content (bijv. het wijzigen van tekst/kleur van besturingselementen of andere content)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Grote verbetering van bestaande content (bijv. wijzigen pagina/weergave lay-out)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Gerelateerde netwerk-/communicatieoplossingen</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Gerelateerde netwerk/communicatie, grote veranderingen op gerelateerde onderdelen (bijv. veranderen van databases/netwerkomgeving)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Bugfixes (software gerelateerd)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Beveiligingsoplossingen voor gerelateerde onderdelen</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Grote beveiligingswijzigingen op gerelateerde onderdelen</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<header>Onderhoud</header>
+	</aftercare_data>
+	<aftercare_data>
+		<paragraph_start>
+			Na twee jaar garantie is het aan jou wat je wilt doen. Van niets tot en met voordelen halen uit een van de 
+			onderhoudsprogramma's wat artvabas u te bieden heeft. Ze zijn allemaal op donatiebasis (zie ook
+		</paragraph_start>
+	</aftercare_data>
+	<aftercare_data>
+		<link>Donaties</link>
+	</aftercare_data>
+	<aftercare_data>
+		<paragraph_end>
+			), houd er rekening mee; De onderhoudsprogramma's zijn alleen voor software wat artvabas heeft ontwikkeld. 
+			En voor hardware, netwerk en communicatie gerelateerde onderdelen, wat nodig is om de software goed te laten 
+			draaien en wat onder toezicht staat van artvabas.
+		</paragraph_end>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Onderhoudsprogramma</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Basis</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Normaal</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Premium</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Kleine verbeteringen bestaande content (bijv. het wijzigen van tekst/kleur van besturingselementen of andere content)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Grote verbetering van bestaande content (bijv. wijzigen pagina/weergave lay-out)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Gerelateerde netwerk-/communicatieoplossingen</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Gerelateerde netwerk/communicatie grote veranderingen op gerelateerde onderdelen (bijv. verandering databases/netwerkomgeving)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Bugfixes (software gerelateerd)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Beveiligingsoplossingen voor gerelateerde onderdelen</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Grote beveiligingswijzigingen op gerelateerde onderdelen</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Toevoegen van verbeteringen aan bestaande inhoud, nieuwe releases</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Het toevoegen van nieuwe verbeteringen/ content, nieuwe releases</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+
+	<aftercare_data>
+		<table-row>Jaarlijkse donatie</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€20,00</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€50,00</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€100,00</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<see_also_title>Zie ook...</see_also_title>
+		<!-- node 19-->
+	</aftercare_data>
+	<aftercare_data>
+		<see_also_button>Aan de slag</see_also_button>
+		<!-- node 20-->
+	</aftercare_data>
+	<aftercare_data>
+		<see_also_button>Donatie</see_also_button>
+		<!-- node 21-->
+	</aftercare_data>
+
 </root>

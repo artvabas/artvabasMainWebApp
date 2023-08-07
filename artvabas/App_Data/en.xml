@@ -288,6 +288,275 @@ Version: 1.0
 	<getstarted_data>
 		<see_also_button>Donation</see_also_button><!-- node 21-->
 	</getstarted_data>
+
+	<!--Aftercare.aspx-->
+
+	<aftercare_data>
+		<title>Aftercare.</title><!-- node 0-->
+	</aftercare_data>
+	<aftercare_data>
+		<header>Guarantee</header><!-- node 1-->
+	</aftercare_data>
+	<aftercare-data>
+		<paragraph>
+			After artvabas have deliver your application, what happened then? artvabas will give you two years of guarantee.
+			What does this mean:
+		</paragraph>
+	</aftercare-data>
 	
+	<aftercare_data>
+		<table-row>Guarantee</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>First Year</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Second Year</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Small improvements existing content (e.g. changing text/color of controls or other contents)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Large improvement existing content (e.g. changing page/view layout)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Related network/communication fixes</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Related network/communication major changes on related parts (e.g. changing databases/network environment)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Bug fixes (software related)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Security fixes on related parts</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Major security changes on related parts</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<header>Maintenance</header>
+	</aftercare_data>
+	<aftercare_data>
+		<paragraph_start>
+			After two years of guarantee it's up to you what you want to do. From nothing to getting advantages from one of the maintenance programs
+			artvabas have offer you. All are on donation base (see also
+		</paragraph_start>
+	</aftercare_data>
+	<aftercare_data>
+		<link>Donations</link>
+	</aftercare_data>
+	<aftercare_data>
+		<paragraph_end>
+			), keep in mind; the maintenance programs are only for software what artvabas have developed and for hardware, 
+			network and communication related parts, what is needed for the software to run correctly and is under supervision by 
+			artvabas.
+		</paragraph_end>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Maintenance program</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Basic</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Normal</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>Premium</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Small improvements existing content (e.g. changing text/color of controls or other contents)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Large improvement existing content (e.g. changing page/view layout)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Related network/communication fixes</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Related network/communication major changes on related parts (e.g. changing databases/network environment)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Bug fixes (software related)</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Security fixes on related parts</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Major security changes on related parts</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Adding improvements on existing content, new releases</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Adding new improvements/ content, new releases</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row>
+	</aftercare_data>
+
+
+	<aftercare_data>
+		<table-row>Yearly donation</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€20,00</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€50,00</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€100,00</table-row>
+	</aftercare_data>
+
+	<aftercare_data>
+		<see_also_title>See also...</see_also_title><!-- node 19-->
+	</aftercare_data>
+	<aftercare_data>
+		<see_also_button>Get started</see_also_button><!-- node 20-->
+	</aftercare_data>
+	<aftercare_data>
+		<see_also_button>Donation</see_also_button><!-- node 21-->
+	</aftercare_data>
+
 </root>
 
