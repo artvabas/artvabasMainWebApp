@@ -27,8 +27,17 @@
 namespace artvabas
 {
     public static class CultureLanguage
-
     {
+
+        // temp, only used for construction, remove after construction is done.
+        private static bool haveseen = false;
+        public static bool HaveSeenPoPup
+        {
+            get { return haveseen; }
+            set { haveseen = value; }
+        }
+        // end temp
+
         /* Class variables*/
         // string for storing the selected two letter ISO language name;
         private static string currentLanguage = string.Empty;

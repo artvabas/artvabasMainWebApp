@@ -2,134 +2,258 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-         <section class="row" aria-labelledby="aftercareTitle">
-            <h1 id="aftercareguaranteeTitle">Guarantee</h1>
-            <p class="lead">
-                After artvabas have deliver your application, what happened then? artvabas will give you two years of guarantee.
-                What does this mean:
-            </p>
+        <% 
+            System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+            xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+            System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("aftercare_data");
+            System.Xml.XmlNode context;
+            context = dataNode[0];
+            Response.Write("<h2 id=\"title\">" + context["title"].InnerText + "</h2>");
+        %>
+        <section class="row" aria-labelledby="aftercareTitle">
+            <%
+                context = dataNode[1];
+                Response.Write("<h1 id=\"aftercareguaranteeTitle\">" + context["header"].InnerText + "</h1>");
+                context = dataNode[2];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+            %>
             <table class="table table-info" id="aftercareGuarenteeTable">
                 <tr class="row d-table-row" style="font:xx-large; font-weight:bolder">
-                    <td>&nbsp;Guarantee</td>
-                    <td>First Year</td>
-                    <td>Second Year</td>
+                    <%
+                        context = dataNode[3];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[4];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[5];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Small improvements existing content (e.g. changing text/color of controls or other contents)</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[6];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[7];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[8];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Large improvement existing content (e.g. changing page/view layout)</td>
-                    <td>X</td>
-                    <td></td>
+                    <%
+                        context = dataNode[9];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[10];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[11];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Related network/communication fixes</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[12];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[13];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[14];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Related network/communication major changes on related parts (e.g. changing databases/network environment)</td>
-                    <td>X</td>
-                    <td></td>
+                    <%
+                        context = dataNode[15];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[16];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[17];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Bug fixes (software related)</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[18];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[19];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[20];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Security fixes on related parts</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[21];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[22];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[23];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                </tr>
                 <tr>
-                    <td>&nbsp;Major security changes on related parts</td>
-                    <td>X</td>
-                    <td></td>
+                    <%
+                        context = dataNode[24];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[25];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[26];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                </tr>
             </table>
-            <h1 id="aftercareMaintenance">Maintenance</h1>
-             <p class="lead">
-                 After two years of guarantee it's up to you what you want to do. From nothing to getting advantages from one of the maintenance programs
-                 artvabas have offer you. All are on donation base (see also 
-                 <a href="Donation.aspx" class=" link-info">Donations</a>), keep in mind; the maintenance programs are only for software what artvabas
-                 have developed and for hardware, network and communication related parts, what is needed for the software to run correctly and is under supervision by artvabas.
-             </p>
+            <%
+                context = dataNode[27];
+                Response.Write("<h1 id=\"aftercareMaintenance\">" + context["header"].InnerText + "</h1>");
+                context = dataNode[28];
+                Response.Write("<p class=\"lead\">" + context["paragraph_start"].InnerText);
+                context = dataNode[29];
+                Response.Write("<a href=\"Donation.aspx\" class=\" link-info\">" + context["link"].InnerText + "</a>");
+                context = dataNode[30];
+                Response.Write(context["paragraph_end"].InnerText);
+            %>
              <table class="table table-info" id="aftercareMaintenanceTable">
                 <tr class="row d-table-row" style="font:xx-large; font-weight:bolder">
-                    <td>&nbsp;Maintenance program</td>
-                    <td>Basic</td>
-                    <td>Normal</td>
-                    <td>Premium</td>
+                    <%
+                        context = dataNode[31];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[32];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[33];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[34];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Small improvements existing content (e.g. changing text/color of controls or other contents)</td>
-                    <td></td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[35];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[36];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[37];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[38];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Large improvement existing content (e.g. changing page/view layout)</td>
-                    <td></td>
-                    <td></td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[39];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[40];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[41];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[42];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Related network/communication fixes</td>
-                    <td></td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[43];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[44];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[45];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[46];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Related network/communication major changes on related parts (e.g. changing databases/network environment)</td>
-                    <td></td>
-                    <td></td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[47];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[48];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[49];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[50];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Bug fixes (software related)</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[51];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[52];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[53];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[54];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Security fixes on related parts</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[55];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[56];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[57];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[58];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Major security changes on related parts</td>
-                    <td></td>
-                    <td></td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[59];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[60];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[61];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[62];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Adding improvements on existing content, new releases</td>
-                    <td></td>
-                    <td>X</td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[63];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[64];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[65];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[66];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr>
-                    <td>&nbsp;Adding new improvements/ content, new releases</td>
-                    <td></td>
-                    <td></td>
-                    <td>X</td>
+                    <%
+                        context = dataNode[67];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[68];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[69];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[70];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
                 <tr style="font:xx-large; font-weight:bolder">
-                    <td>&nbsp;Yearly donation</td>
-                    <td>€20,00</td>
-                    <td>€50,00</td>
-                    <td>€100,00</td>
+                    <%
+                        context = dataNode[71];
+                        Response.Write("<td>&nbsp;" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[72];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[73];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                        context = dataNode[74];
+                        Response.Write("<td>" + context["table-row"].InnerText + "</td>");
+                    %>
                 </tr>
             </table>
-            <h4 id="aftercareSeeAlso">See also...</h4>
+            <%
+                context = dataNode[75];
+                Response.Write("<h4 id=\"aftercareSeeAlso\">" + context["see_also_title"].InnerText + "</h4>");
+            %>
             <p>
-                <a href="Getstarted.aspx" class="btn btn-secondary btn-md">Get started &raquo;</a>
-                <a href="Donation.aspx" class="btn btn-info btn-md">Donation &raquo;</a>
+                <%
+                    context = dataNode[76];
+                    Response.Write("<a href=\"Getstarted.aspx\" class=\"btn btn-secondary btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
+                    context = dataNode[77];
+                    Response.Write("<a href=\"Donation.aspx\" class=\"btn btn-info btn-md\">" + context["see_also_button"].InnerText + " &raquo;</a>&nbsp;");
+                %>
             </p>
         </section>
     </main>

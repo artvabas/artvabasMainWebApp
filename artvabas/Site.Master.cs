@@ -26,6 +26,15 @@ namespace artvabas
             if (!IsPostBack)
             {
                 Response.Headers.Remove("Set-Cookie");
+
+                // temp, remove after construction is done
+                if(!CultureLanguage.HaveSeenPoPup)
+                {
+                    CultureLanguage.HaveSeenPoPup = true;
+                    ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "pop-up", "showPopup();", true);
+                }
+                // end temp
+
                 // Yes, do we already have the device language setting?
                 if (!CultureLanguage.HaveDeviceCultureLanguage)
                 {
@@ -34,8 +43,7 @@ namespace artvabas
                     CultureLanguage.CurrentLanguage = culture.TwoLetterISOLanguageName;
                     LanguageDropDownList.SelectedValue = CultureLanguage.CurrentLanguage;
                     CultureLanguage.HaveDeviceCultureLanguage = true;
-                    ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "pop-up", "showPopup();", true);
-
+                    //ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "pop-up", "showPopup();", true);
                 }
                 else
                 {

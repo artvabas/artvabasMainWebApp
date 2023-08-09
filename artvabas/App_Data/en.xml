@@ -297,107 +297,107 @@ Version: 1.0
 	<aftercare_data>
 		<header>Guarantee</header><!-- node 1-->
 	</aftercare_data>
-	<aftercare-data>
-		<paragraph>
+	<aftercare_data>
+		<paragraph><!-- node 2-->
 			After artvabas have deliver your application, what happened then? artvabas will give you two years of guarantee.
 			What does this mean:
 		</paragraph>
-	</aftercare-data>
+	</aftercare_data>
 	
 	<aftercare_data>
-		<table-row>Guarantee</table-row>
+		<table-row>Guarantee</table-row><!-- node 3-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>First Year</table-row>
+		<table-row>First Year</table-row><!-- node 4-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Second Year</table-row>
+		<table-row>Second Year</table-row><!-- node 5-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 6-->
 		<table-row>Small improvements existing content (e.g. changing text/color of controls or other contents)</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 7-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 8-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 9-->
 		<table-row>Large improvement existing content (e.g. changing page/view layout)</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 10-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Related network/communication fixes</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row></table-row><!-- node 11-->
 	</aftercare_data>
 
 	<aftercare_data>
+		<table-row>Related network/communication fixes</table-row><!-- node 12-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 13-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 14-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 15-->
 		<table-row>Related network/communication major changes on related parts (e.g. changing databases/network environment)</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 16-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Bug fixes (software related)</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row></table-row><!-- node 17-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Security fixes on related parts</table-row>
+		<table-row>Bug fixes (software related)</table-row><!-- node 18-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 19-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Major security changes on related parts</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 20-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<header>Maintenance</header>
+		<table-row>Security fixes on related parts</table-row><!-- node 21-->
 	</aftercare_data>
 	<aftercare_data>
-		<paragraph_start>
+		<table-row>X</table-row><!-- node 22-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 23-->
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Major security changes on related parts</table-row><!-- node 24-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 25-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 26-->
+	</aftercare_data>
+
+	<aftercare_data>
+		<header>Maintenance</header><!-- node 27-->
+	</aftercare_data>
+	<aftercare_data>
+		<paragraph_start><!-- node 28-->
 			After two years of guarantee it's up to you what you want to do. From nothing to getting advantages from one of the maintenance programs
 			artvabas have offer you. All are on donation base (see also
 		</paragraph_start>
 	</aftercare_data>
 	<aftercare_data>
-		<link>Donations</link>
+		<link>Donations</link><!-- node 29-->
 	</aftercare_data>
 	<aftercare_data>
-		<paragraph_end>
+		<paragraph_end><!-- node 30-->
 			), keep in mind; the maintenance programs are only for software what artvabas have developed and for hardware, 
 			network and communication related parts, what is needed for the software to run correctly and is under supervision by 
 			artvabas.
@@ -405,157 +405,157 @@ Version: 1.0
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Maintenance program</table-row>
+		<table-row>Maintenance program</table-row><!-- node 31-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Basic</table-row>
+		<table-row>Basic</table-row><!-- node 32-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Normal</table-row>
+		<table-row>Normal</table-row><!-- node 33-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Premium</table-row>
+		<table-row>Premium</table-row><!-- node 34-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 35-->
 		<table-row>Small improvements existing content (e.g. changing text/color of controls or other contents)</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 36-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 37-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 38-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 39-->
 		<table-row>Large improvement existing content (e.g. changing page/view layout)</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 40-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 41-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 42-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 43-->
 		<table-row>Related network/communication fixes</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 44-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 45-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 46x-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 47-->
 		<table-row>Related network/communication major changes on related parts (e.g. changing databases/network environment)</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 48-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 49-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Bug fixes (software related)</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 50-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Security fixes on related parts</table-row>
+		<table-row>Bug fixes (software related)</table-row><!-- node 51-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 52-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 53-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Major security changes on related parts</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 54-->
 	</aftercare_data>
 
 	<aftercare_data>
+		<table-row>Security fixes on related parts</table-row><!-- node 55-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 56-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 57-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 58-->
+	</aftercare_data>
+
+	<aftercare_data>
+		<table-row>Major security changes on related parts</table-row><!-- node 59-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 60-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 61-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 62-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 63-->
 		<table-row>Adding improvements on existing content, new releases</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 64-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 65-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 66-->
 	</aftercare_data>
 
-	<aftercare_data>
+	<aftercare_data><!-- node 67-->
 		<table-row>Adding new improvements/ content, new releases</table-row>
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 68-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 69-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-
-	<aftercare_data>
-		<table-row>Yearly donation</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>€20,00</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>€50,00</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>€100,00</table-row>
+		<table-row>X</table-row><!-- node 70-->
 	</aftercare_data>
 
+
 	<aftercare_data>
-		<see_also_title>See also...</see_also_title><!-- node 19-->
+		<table-row>Yearly donation</table-row><!-- node 71-->
 	</aftercare_data>
 	<aftercare_data>
-		<see_also_button>Get started</see_also_button><!-- node 20-->
+		<table-row>€20,00</table-row><!-- node 72-->
 	</aftercare_data>
 	<aftercare_data>
-		<see_also_button>Donation</see_also_button><!-- node 21-->
+		<table-row>€50,00</table-row><!-- node 73-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>€100,00</table-row><!-- node 74-->
+	</aftercare_data>
+
+	<aftercare_data>
+		<see_also_title>See also...</see_also_title><!-- node 75-->
+	</aftercare_data>
+	<aftercare_data>
+		<see_also_button>Get started</see_also_button><!-- node 76-->
+	</aftercare_data>
+	<aftercare_data>
+		<see_also_button>Donation</see_also_button><!-- node 77-->
 	</aftercare_data>
 
 </root>

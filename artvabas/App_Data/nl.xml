@@ -304,112 +304,117 @@ Version: 1.0
 	<!--Aftercare.aspx-->
 
 	<aftercare_data>
-		<title>Nazorg.</title>
-		<!-- node 0-->
+		<title>Nazorg.</title><!-- node 0-->
 	</aftercare_data>
 	<aftercare_data>
-		<header>Garantie</header>
-		<!-- node 1-->
+		<header>Garantie</header><!-- node 1-->
 	</aftercare_data>
-	<aftercare-data>
+	<aftercare_data><!-- node 2-->
 		<paragraph>
 			Wat gebeurde er nadat artvabas uw aanvraag heeft opgeleverd? Artvabas geeft u dan twee jaar garantie. Wat betekent dit:
 		</paragraph>
-	</aftercare-data>
-
-	<aftercare_data>
-		<table-row>Garantie</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>Eerste jaar</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>Tweede jaar</table-row>
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Kleine verbeteringen van bestaande content (bijv. het wijzigen van tekst/kleur van besturingselementen of andere content)</table-row>
+		<table-row>Garantie</table-row><!-- node 3-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>Eerste jaar</table-row><!-- node 4-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>Tweede jaar</table-row><!-- node 5-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 6-->
+		<table-row>
+			Kleine verbeteringen van bestaande content (bijv. het wijzigen van tekst/kleur van besturingselementen of andere content)
+		</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 7-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 8-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 9-->
+		<table-row>
+			Grote verbetering van bestaande content (bijv. wijzigen pagina/weergave lay-out)
+		</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 10-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 11-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Grote verbetering van bestaande content (bijv. wijzigen pagina/weergave lay-out)</table-row>
+		<table-row>Gerelateerde netwerk-/communicatieoplossingen</table-row><!-- node 34-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 12-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 13-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 14-->
+		<table-row>
+			Gerelateerde netwerk/communicatie, grote veranderingen op gerelateerde onderdelen 
+			(bijv. veranderen van databases/netwerkomgeving)
+		</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 15-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 16-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Gerelateerde netwerk-/communicatieoplossingen</table-row>
+		<table-row>Bugfixes (software gerelateerd)</table-row><!-- node 17-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 18-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Gerelateerde netwerk/communicatie, grote veranderingen op gerelateerde onderdelen (bijv. veranderen van databases/netwerkomgeving)</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 19-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Bugfixes (software gerelateerd)</table-row>
+		<table-row>Beveiligingsoplossingen voor gerelateerde onderdelen</table-row><!-- node 20-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 21-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Beveiligingsoplossingen voor gerelateerde onderdelen</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 22-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Grote beveiligingswijzigingen op gerelateerde onderdelen</table-row>
+		<table-row>Grote beveiligingswijzigingen op gerelateerde onderdelen</table-row><!-- node 23-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 24-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 25-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<header>Onderhoud</header>
+		<header>Onderhoud</header><!-- node 26-->
 	</aftercare_data>
-	<aftercare_data>
+	<aftercare_data><!-- node 27-->
 		<paragraph_start>
 			Na twee jaar garantie is het aan jou wat je wilt doen. Van niets tot en met voordelen halen uit een van de 
 			onderhoudsprogramma's wat artvabas u te bieden heeft. Ze zijn allemaal op donatiebasis (zie ook
 		</paragraph_start>
 	</aftercare_data>
 	<aftercare_data>
-		<link>Donaties</link>
+		<link>Donaties</link><!-- node 28-->
 	</aftercare_data>
-	<aftercare_data>
+	<aftercare_data><!-- node 29-->
 		<paragraph_end>
 			), houd er rekening mee; De onderhoudsprogramma's zijn alleen voor software wat artvabas heeft ontwikkeld. 
 			En voor hardware, netwerk en communicatie gerelateerde onderdelen, wat nodig is om de software goed te laten 
@@ -418,160 +423,164 @@ Version: 1.0
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Onderhoudsprogramma</table-row>
+		<table-row>Onderhoudsprogramma</table-row><!-- node 30-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Basis</table-row>
+		<table-row>Basis</table-row><!-- node 32-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Normaal</table-row>
+		<table-row>Normaal</table-row><!-- node 33-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>Premium</table-row>
+		<table-row>Premium</table-row><!-- node 34-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 35-->
+		<table-row>
+			Kleine verbeteringen bestaande content (bijv. het wijzigen van tekst/kleur van besturingselementen of andere content)
+		</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 36-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 37-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 38-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 39-->
+		<table-row>
+			Grote verbetering van bestaande content (bijv. wijzigen pagina/weergave lay-out)
+		</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 40-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 42-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 42-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Kleine verbeteringen bestaande content (bijv. het wijzigen van tekst/kleur van besturingselementen of andere content)</table-row>
+		<table-row>Gerelateerde netwerk-/communicatieoplossingen</table-row><!-- node 43-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 44-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 45-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 46-->
+	</aftercare_data>
+
+	<aftercare_data><!-- node 47-->
+		<table-row>
+			Gerelateerde netwerk/communicatie grote veranderingen op gerelateerde onderdelen 
+			(bijv. verandering databases/netwerkomgeving)
+		</table-row>
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 48-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row></table-row><!-- node 49-->
+	</aftercare_data>
+	<aftercare_data>
+		<table-row>X</table-row><!-- node 50-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Grote verbetering van bestaande content (bijv. wijzigen pagina/weergave lay-out)</table-row>
+		<table-row>Bugfixes (software gerelateerd)</table-row><!-- node 51-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 52-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 53-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Gerelateerde netwerk-/communicatieoplossingen</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 54-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Gerelateerde netwerk/communicatie grote veranderingen op gerelateerde onderdelen (bijv. verandering databases/netwerkomgeving)</table-row>
+		<table-row>Beveiligingsoplossingen voor gerelateerde onderdelen</table-row><!-- node 55-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 56-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row>X</table-row><!-- node 57-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Bugfixes (software gerelateerd)</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 58-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Beveiligingsoplossingen voor gerelateerde onderdelen</table-row>
+		<table-row>Grote beveiligingswijzigingen op gerelateerde onderdelen</table-row><!-- node 59-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row></table-row><!-- node 60-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row></table-row><!-- node 61-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
-	</aftercare_data>
-
-	<aftercare_data>
-		<table-row>Grote beveiligingswijzigingen op gerelateerde onderdelen</table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row></table-row>
-	</aftercare_data>
-	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 62-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Toevoegen van verbeteringen aan bestaande inhoud, nieuwe releases</table-row>
+		<table-row>Toevoegen van verbeteringen aan bestaande inhoud, nieuwe releases</table-row><!-- node 63-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 64-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 65-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 66-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<table-row>Het toevoegen van nieuwe verbeteringen/ content, nieuwe releases</table-row>
+		<table-row>Het toevoegen van nieuwe verbeteringen/ content, nieuwe releases</table-row><!-- node 67-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 68-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row></table-row>
+		<table-row></table-row><!-- node 69-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>X</table-row>
+		<table-row>X</table-row><!-- node 70-->
 	</aftercare_data>
 
 
 	<aftercare_data>
-		<table-row>Jaarlijkse donatie</table-row>
+		<table-row>Jaarlijkse donatie</table-row><!-- node 71-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>€20,00</table-row>
+		<table-row>€20,00</table-row><!-- node 72-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>€50,00</table-row>
+		<table-row>€50,00</table-row><!-- node 73-->
 	</aftercare_data>
 	<aftercare_data>
-		<table-row>€100,00</table-row>
+		<table-row>€100,00</table-row><!-- node 74-->
 	</aftercare_data>
 
 	<aftercare_data>
-		<see_also_title>Zie ook...</see_also_title>
-		<!-- node 19-->
+		<see_also_title>Zie ook...</see_also_title><!-- node 75-->
 	</aftercare_data>
 	<aftercare_data>
-		<see_also_button>Aan de slag</see_also_button>
-		<!-- node 20-->
+		<see_also_button>Aan de slag</see_also_button><!-- node 76-->
 	</aftercare_data>
 	<aftercare_data>
-		<see_also_button>Donatie</see_also_button>
-		<!-- node 21-->
+		<see_also_button>Donatie</see_also_button><!-- node 77-->
 	</aftercare_data>
 
 </root>
