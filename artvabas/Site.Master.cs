@@ -1,13 +1,13 @@
-﻿using Microsoft.Ajax.Utilities;
+﻿//using Microsoft.Ajax.Utilities;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+//using System.Collections.Generic;
+//using System.Diagnostics;
 using System.Globalization;
-using System.Linq;
+//using System.Linq;
 using System.Threading;
-using System.Web;
+//using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+//using System.Web.UI.WebControls;
 
  
 namespace artvabas
@@ -25,10 +25,11 @@ namespace artvabas
             // Is this function trigged because of first time loading or because of navigation between pages?
             if (!IsPostBack)
             {
-                Response.Headers.Remove("Set-Cookie");
+                Response.Headers.Remove("ARRAffinity");
+                Response.Headers.Remove("ARRAffinitySameSite");
 
                 // temp, remove after construction is done
-                if(!CultureLanguage.HaveSeenPoPup)
+                if (!CultureLanguage.HaveSeenPoPup)
                 {
                     CultureLanguage.HaveSeenPoPup = true;
                     ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "pop-up", "showPopup();", true);

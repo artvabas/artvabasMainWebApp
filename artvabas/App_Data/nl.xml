@@ -10,6 +10,18 @@ Version: 1.0
 -->
 <root>
 
+	<!--Site.Master Navigation-->
+
+	<site_master_nav_data>
+		<nav-item>Welkom</nav-item><!--node 0-->
+	</site_master_nav_data>
+	<site_master_nav_data>
+		<nav-item>Over</nav-item><!--node 1-->
+	</site_master_nav_data>
+	<site_master_nav_data>
+		<nav-item>Contact</nav-item><!--node 2-->
+	</site_master_nav_data>
+	
 	<!--Default.aspx-->
 
 	<default_data>
@@ -583,4 +595,75 @@ Version: 1.0
 		<see_also_button>Donatie</see_also_button><!-- node 77-->
 	</aftercare_data>
 
+	<!--Donation.aspx-->
+
+	<donation_data>
+		<title>Schenking</title><!--node 0-->
+	</donation_data>
+	<donation_data>
+		<header>Weldadigheid</header><!--node 1-->
+	</donation_data>
+	<donation_data>
+		<paragraph><!--node 2-->
+			Deze geweldige service die Artvabas u biedt, kost niet veel, het is bijna kostenloos. 
+			We vragen slechts een kleine donatie voor de inspanning wat artvabas voor u gedaan heeft, 
+			het is meer als een waardering van u aan artvabas:
+		</paragraph>
+	</donation_data>
+
+	<donation_data>
+		<table-row>Eenmalige donatie</table-row><!--node 3-->
+	</donation_data>
+	<donation_data>
+		<table-row>Schenking</table-row><!--node 4-->
+	</donation_data>
+
+	<donation_data>
+		<table-row>Eenvoudige mobiele/desktop/webapplicatie (voor informatie en contactmogelijkheden)</table-row><!--node 5-->
+	</donation_data>
+	<donation_data>
+		<table-row>€20,00</table-row><!--node 6-->
+	</donation_data>
+
+	<donation_data>
+		<table-row>Eenvoudige interactieve mobiele/desktop/webapplicatie (database gedreven)</table-row><!--node 7-->
+	</donation_data>
+	<donation_data>
+		<table-row>€50,00</table-row><!--node 8-->
+	</donation_data>
+
+	<donation_data>
+		<table-row>Volledige interactieve mobiele/desktop/webapplicatie (alles is mogelijk)</table-row><!--node 9-->
+	</donation_data>
+	<donation_data>
+		<table-row>€100,00</table-row><!--node 10-->
+	</donation_data>
+
+	<donation_data>
+		<header>Overige kosten</header><!--node 11-->
+	</donation_data>
+	<donation_data>
+		<paragraph><!--node 12-->
+			Afhankelijk van de mogelijkheden van uw toepassing, kan het zijn dat er een netwerk, vaak virtueel, nodig is. Meestal zijn deze vereisten cloudgebaseerd. 
+			Als dit het geval is, betekent dit dat dit op maandelijkse of jaarlijkse basis moet worden ingehuurd (of betalen aan de hand van verbruik).
+			Deze kosten worden volledig aan u in rekening gebracht. U kunt ervoor kiezen om dit alleen of via artvabas aan te schaffen. 
+			artvabas berekent geen winst op deze kosten, u betaalt wat artvabas betaalt.
+		</paragraph>
+	</donation_data>
+	<donation_data>
+		<paragraph><!--node 13-->
+			Wat je ook kiest, het is aan u. Indien nodig begeleidt artvabas u bij het inrichten van de omgeving, wat nodig is om de applicatie te laten draaien.
+		</paragraph>
+	</donation_data>
+
+	<donation_data>
+		<see_also_title>Zie ook....</see_also_title><!-- node 14-->
+	</donation_data>
+	<donation_data>
+		<see_also_button>Aan de slag</see_also_button><!-- node 15-->
+	</donation_data>
+	<donation_data>
+		<see_also_button>Nazorg</see_also_button><!-- node 16-->
+	</donation_data>
+	
 </root>

@@ -30,10 +30,10 @@
 		<div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px;">
 			<h1>Welkom</h1>
 			<p>Deze website is onder constructie, daardoor inactief!</p>
-            <p>In de tweede week van augustus is deze website weer actief.</p>
+            <p>In oktober is deze website weer actief.</p>
             <h1>Welcome</h1>
 			<p>This website is under construction and therefore inactive!</p>
-            <p>In the second week of August this website is active again.</p>
+            <p>In October this website is active again.</p>
 			<button onclick="hidePopup()">OK</button>
 		</div>
 	</div>
@@ -67,9 +67,21 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
+                        <% 
+                            System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                            xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                            System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("site_master_nav_data");
+                            System.Xml.XmlNode context;
+                            context = dataNode[0];
+                            Response.Write("<li class=\"nav-item\"><a class=\"nav-link\" runat=\"server\" href=\"/\">" + context["nav-item"].InnerText + "</a></li>");
+                            context = dataNode[1];
+                            Response.Write("<li class=\"nav-item\"><a class=\"nav-link\" runat=\"server\" href=\"/About\">" + context["nav-item"].InnerText + "</a></li>");
+                            context = dataNode[2];
+                            Response.Write("<li class=\"nav-item\"><a class=\"nav-link\" runat=\"server\" href=\"/Contact\">" + context["nav-item"].InnerText + "</a></li>");
+                        %>
+                        <%--<li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>--%>
                     </ul>
                     <div> 
                         <asp:Image runat="server" Height="2.5em" ImageAlign="Top" ImageUrl="~/Images/nl-en.png" />
