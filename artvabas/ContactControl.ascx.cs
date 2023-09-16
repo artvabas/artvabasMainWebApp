@@ -8,6 +8,10 @@ using System.Data;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 //using System.Xml.Linq;
+using System.Net;
+using System.Net.Mail;
+using System.Xml.Linq;
+using System.Configuration;
 
 namespace artvabas
 {
@@ -103,7 +107,34 @@ namespace artvabas
 
         protected void ContactSend_Click(object sender, EventArgs e)
         {
-            if (Page.IsValid) { }
+            if (Page.IsValid)
+            {
+                
+                // Address from where you send the mail
+                var fromAddress = ConfigurationManager.AppSettings["mailAccount"];
+                // any address where the email will be sending
+                var toAddress = ConfigurationManager.AppSettings["mailAccount"];
+                //Password of address
+                var fromPassword = ConfigurationManager.AppSettings["mailPassword"];
+                // Passing the values and make a email formate to display
+                string subject = AboutDropDownList.Text;
+                string body = "From: " + ContactEmailAddressTextBox.Text + "\n";
+                body += "Email: " + ContactEmailAddressTextBox.Text + "\n";
+                body += "Subject: " + KindOfDropDownList.Text + "\n";
+                body += "Question: \n" + ContactCommentsTextBox.Text + "\n";
+                // smtp settings
+                var smtp = new System.Net.Mail.SmtpClient();
+                {
+                    smtp.Host = "smtp.strato.com";
+                    smtp.Port = 465;
+                    smtp.EnableSsl = true;
+                    smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
+                    smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
+                    //smtp.Timeout = 20000;
+                }
+                // Passing values to smtp object
+                smtp.Send(fromAddress, toAddress, subject, body);
+            }
         }
 
         private Control GetControlThatCausedPostBack(Page page)
