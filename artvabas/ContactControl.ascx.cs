@@ -126,7 +126,7 @@ namespace artvabas
                 var smtp = new System.Net.Mail.SmtpClient();
                 {
                     smtp.Host = ConfigurationManager.AppSettings["smtpServer"];
-                    smtp.Port = Convert.ToInt32(ConfigurationManager.AppSettings["smtpServer"]);
+                    smtp.Port = Convert.ToInt32(ConfigurationManager.AppSettings["smtpPort"]);
                     smtp.EnableSsl = true;
                     smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
                     smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
