@@ -125,8 +125,8 @@ namespace artvabas
                 // smtp settings
                 var smtp = new System.Net.Mail.SmtpClient();
                 {
-                    smtp.Host = "smtp.strato.com";
-                    smtp.Port = 465;
+                    smtp.Host = ConfigurationManager.AppSettings["smtpServer"];
+                    smtp.Port = Convert.ToInt32(ConfigurationManager.AppSettings["smtpServer"]);
                     smtp.EnableSsl = true;
                     smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
                     smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
