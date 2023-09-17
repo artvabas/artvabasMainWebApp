@@ -12,6 +12,7 @@ using System.Net;
 using System.Net.Mail;
 using System.Xml.Linq;
 using System.Configuration;
+using System.Web.Services.Description;
 
 namespace artvabas
 {
@@ -119,8 +120,15 @@ namespace artvabas
                 // Passing the values and make a email formate to display
                 string subject = AboutDropDownList.Text;
                 string body = "From: " + ContactEmailAddressTextBox.Text + "\n";
-                body += "Email: " + ContactEmailAddressTextBox.Text + "\n";
-                body += "Subject: " + KindOfDropDownList.Text + "\n";
+                body += "Phone: " + ContactPhoneNumberTextBox.Text + "\n";
+                if (AboutDropDownList.SelectedIndex == 1)
+                {
+                    body += "Subject: " + KindOfDropDownList.Text + "\n";
+                    body += "Platform:\n";
+                    if (PlatformAndroidCheckBox.Checked) body += "\tAndroid\n";
+                    if (PlatformIOSCheckBox.Checked) body += "\tIOS\n";
+                    if (PlatformWindowsCheckBox.Checked) body += "\tWindows\n";
+                }
                 body += "Question: \n" + ContactCommentsTextBox.Text + "\n";
                 // smtp settings
                 var smtp = new System.Net.Mail.SmtpClient();
@@ -130,10 +138,17 @@ namespace artvabas
                     smtp.EnableSsl = true;
                     smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
                     smtp.Credentials = new NetworkCredential(fromAddress, fromPassword);
-                    //smtp.Timeout = 20000;
+                    smtp.Timeout = 20000;
                 }
-                // Passing values to smtp object
-                smtp.Send(fromAddress, toAddress, subject, body);
+                try
+                {
+                    smtp.Send(fromAddress, toAddress, subject, body);
+                    Response.Redirect("~/SendThanks.aspx");
+                }
+                catch (Exception ex)
+                {
+                    Response.Redirect("~/SendError.aspx?send-error=" + ex.Message);
+                }
             }
         }
 

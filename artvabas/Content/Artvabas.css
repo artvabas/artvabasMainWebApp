@@ -2,7 +2,7 @@
     width: 300px;
 }
 
-div.avb-contact-table-size{
+.avb-contact-table-size{
     width: 600px;
 }
 
@@ -13,16 +13,46 @@ div.avb-contact-table-size{
     padding-bottom:10px
 }
 
-div.avb-contact-cell-allign-btn {
+.avb-contact-cell-allign-btn {
     display: flex;
     justify-content: left;
     width: 100pc;
     border:5px solid red;
 }
 
+.avb-error-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+}
+
+.avb-error-message {
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.avb-error-backround {
+    background-color: palegoldenrod;
+}
+
+.avb-thanks-background{
+    background-color:powderblue;
+}
+
+.avb-thanks-header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:darkgreen;
+    text-align:center;
+}
+
+.avb-thanks-message{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom:20px;
+    text-align:center;
+}
+
 .avb-contact-btn-send{
     margin-right: 3.5em;
- 
+    
 }
 
 .avb-contact-Validation-Summary {
@@ -35,3 +65,4 @@ div.avb-contact-cell-allign-btn {
     margin-bottom:10px;
     
 }
+
