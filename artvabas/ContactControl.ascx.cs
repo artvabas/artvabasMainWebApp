@@ -103,7 +103,21 @@ namespace artvabas
 
         protected void PlatformCustomValidator_ServerValidate(object source, ServerValidateEventArgs args)
         {
-            args.IsValid = PlatformAndroidCheckBox.Checked || PlatformIOSCheckBox.Checked;
+            //args.IsValid = PlatformAndroidCheckBox.Checked || PlatformIOSCheckBox.Checked;
+            switch (KindOfDropDownList.SelectedIndex)
+            {
+                case 0: // Mobile
+                case 3: // Mobile & Desktop
+                case 4: // Mobile & Web
+                case 6: // Mobile, Desktop & Web
+                    args.IsValid = PlatformAndroidCheckBox.Checked || PlatformIOSCheckBox.Checked;
+                    break;
+                case 1: // Desktop
+                case 2: // Web
+                case 5: // Desktop & Web
+                    args.IsValid = true;
+                    break;
+            }
         }
 
         protected void ContactSend_Click(object sender, EventArgs e)
@@ -125,6 +139,15 @@ namespace artvabas
                 {
                     body += "Subject: " + KindOfDropDownList.Text + "\n";
                     body += "Platform:\n";
+                    switch (KindOfDropDownList.SelectedIndex)
+                    {
+                        case 2: // Web
+                        case 4: // Mobile & Web
+                        case 5: // Desktop & Web
+                        case 6: // Mobile, Desktop & Web
+                            body += "\tWeb\n";
+                            break;
+                    }
                     if (PlatformAndroidCheckBox.Checked) body += "\tAndroid\n";
                     if (PlatformIOSCheckBox.Checked) body += "\tIOS\n";
                     if (PlatformWindowsCheckBox.Checked) body += "\tWindows\n";
@@ -142,8 +165,9 @@ namespace artvabas
                 }
                 try
                 {
-                    smtp.Send(fromAddress, toAddress, subject, body);
-                    Response.Redirect("~/SendThanks.aspx");
+                    //smtp.Send(fromAddress, toAddress, subject, body);
+                    
+                    Response.Redirect("~/SendThanks.aspx", false);
                 }
                 catch (Exception ex)
                 {

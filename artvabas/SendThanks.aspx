@@ -15,7 +15,10 @@
         <div class="avb-thanks-message">
             <h3>Soon artvabas will contact you!</h3>
         </div>
-        <div style="text-align:center">
+        <div class="avb-center-content">
+            <img src="images/happygoat.jpg" alt="Alternate Text" width="400" />
+        </div>
+        <div class="avb-center-content">
             <a class="link-success" href="Default.aspx">Go back to Homepage</a>
         </div>
     </form>

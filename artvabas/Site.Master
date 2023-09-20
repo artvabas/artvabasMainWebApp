@@ -79,12 +79,12 @@
                             context = dataNode[2];
                             Response.Write("<li class=\"nav-item\"><a class=\"nav-link\" runat=\"server\" href=\"/Contact\">" + context["nav-item"].InnerText + "</a></li>");
                         %>
-                        <%--<li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>--%>
+                        <a runat="server" href="~/Goat.aspx">
+                            <asp:Image runat="server" Height="3.5em" ImageAlign="Top" ImageUrl="~/Images/hermien500.png" ToolTip="Click me" />
+                        </a>
                     </ul>
                     <div> 
-                        <asp:Image runat="server" Height="2.5em" ImageAlign="Top" ImageUrl="~/Images/nl-en.png" />
+                        <asp:Image runat="server" Height="2.5em" ImageAlign="Top" ImageUrl="~/Images/nl-en.png" ToolTip="Language" />
                         <asp:DropDownList ID="LanguageDropDownList" CssClass="bg-gradient bg-dark" runat="server" ForeColor="#999999" OnSelectedIndexChanged="LanguageDropDownList_SelectedIndexChanged" AutoPostBack="True">
                             <asp:ListItem>nl</asp:ListItem>
                             <asp:ListItem>en</asp:ListItem>

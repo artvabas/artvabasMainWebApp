@@ -134,6 +134,11 @@
     <Content Include="Default.aspx" />
     <Content Include="GetStarted.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Goat.aspx" />
+    <Content Include="Images\fsdoctool.png" />
+    <Content Include="Images\fsupdater.png" />
+    <Content Include="Images\fsupdateroptions.png" />
+    <Content Include="Images\happygoat.jpg" />
     <Content Include="Images\hermien500.png" />
     <Content Include="Images\LogoAVB_816.png" />
     <Content Include="favicon.ico" />
@@ -257,6 +262,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Goat.aspx.cs">
+      <DependentUpon>Goat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Goat.aspx.designer.cs">
+      <DependentUpon>Goat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SendError.aspx.cs">

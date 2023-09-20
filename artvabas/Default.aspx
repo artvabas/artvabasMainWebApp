@@ -11,11 +11,11 @@
                 context = dataNode[0];
                 Response.Write("<h1 id=\"defaultsoftwaresulutionsTitle\">" + context["header"].InnerText + "</h1>");
                 context = dataNode[1];
-                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
                 context = dataNode[2];
-                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
                 context = dataNode[3];
-                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
             %>
             <p>
                 <%
@@ -30,7 +30,7 @@
                     context = dataNode[5];
                     Response.Write("<h2 id=\"gettingStartedTitle\">" + context["header"].InnerText + "</h2>");
                     context = dataNode[6];
-                    Response.Write("<p>" + context["paragraph"].InnerText);
+                    Response.Write("<p>" + context["paragraph"].InnerText + "</p>");
                 %>
                 <p>
                     <%
@@ -44,7 +44,7 @@
                     context = dataNode[8];
                     Response.Write("<h2 id=\"aftercareTitle\">" + context["header"].InnerText + "</h2>");
                     context = dataNode[9];
-                    Response.Write("<p>" + context["paragraph"].InnerText);
+                    Response.Write("<p>" + context["paragraph"].InnerText + "</p>");
                 %>
                 <p>
                     <%
@@ -58,7 +58,7 @@
                     context = dataNode[11];
                     Response.Write("<h2 id=\"donationTitle\">" + context["header"].InnerText + "</h2>");
                     context = dataNode[12];
-                    Response.Write("<p>" + context["paragraph"].InnerText);
+                    Response.Write("<p>" + context["paragraph"].InnerText + "</p>");
                 %>
                 <p>
                     <%

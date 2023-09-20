@@ -107,7 +107,7 @@
                 context = dataNode[29];
                 Response.Write("<a href=\"Donation.aspx\" class=\" link-info\">" + context["link"].InnerText + "</a>");
                 context = dataNode[30];
-                Response.Write(context["paragraph_end"].InnerText);
+                Response.Write(context["paragraph_end"].InnerText + "</p>");
             %>
              <table class="table table-info" id="aftercareMaintenanceTable">
                 <tr class="row d-table-row" style="font:xx-large; font-weight:bolder">

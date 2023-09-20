@@ -16,10 +16,16 @@
 .avb-contact-cell-allign-btn {
     display: flex;
     justify-content: left;
-    width: 100pc;
-    border:5px solid red;
+    width: 400px;
+    padding-left:10px;
 }
 
+.avb-goat-cell-allign{
+    width: 400px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    
+}
 .avb-error-header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkred;
@@ -47,6 +53,10 @@
 .avb-thanks-message{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom:20px;
+    text-align:center;
+}
+
+.avb-center-content {
     text-align:center;
 }
 

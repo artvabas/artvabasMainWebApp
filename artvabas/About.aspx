@@ -18,7 +18,7 @@
                 context = dataNode[2];
                 Response.Write("<h1 id=\"aboutGoal\">" + context["header"].InnerText + "</h1>");
                 context = dataNode[3];
-                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText);
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
                 context = dataNode[4];
                 Response.Write("<a href=\"Donation.aspx\" class=\"link-info\">" + context["link_donation"].InnerText + ")</a></p>");
                 context = dataNode[5];
