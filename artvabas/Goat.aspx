@@ -29,7 +29,6 @@
                             <p class="lead">&nbsp;Hallo</p>
                         </section>
                    </asp:WizardStep>
-
                </WizardSteps>
            </asp:Wizard>
         </section>
