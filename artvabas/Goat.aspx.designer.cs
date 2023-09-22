@@ -13,5 +13,41 @@ namespace artvabas
 
     public partial class Goat
     {
+
+        /// <summary>
+        /// Wizard1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Wizard Wizard1;
+
+        /// <summary>
+        /// WizardStep1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep1;
+
+        /// <summary>
+        /// WizardStep2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep2;
+
+        /// <summary>
+        /// WizardStep3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep3;
     }
 }
