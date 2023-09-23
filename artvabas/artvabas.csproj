@@ -138,8 +138,10 @@
     <Content Include="Images\fsdoctool.png" />
     <Content Include="Images\fsupdater.png" />
     <Content Include="Images\fsupdateroptions.png" />
+    <Content Include="Images\fsworkflow.png" />
     <Content Include="Images\happygoat.jpg" />
     <Content Include="Images\hermien500.png" />
+    <Content Include="Images\isahelp.png" />
     <Content Include="Images\LogoAVB_816.png" />
     <Content Include="favicon.ico" />
     <Content Include="Images\nl-en.png" />

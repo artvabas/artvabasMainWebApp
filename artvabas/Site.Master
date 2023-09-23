@@ -80,7 +80,7 @@
                             Response.Write("<li class=\"nav-item\"><a class=\"nav-link\" runat=\"server\" href=\"/Contact\">" + context["nav-item"].InnerText + "</a></li>");
                         %>
                         <a runat="server" href="~/Goat.aspx">
-                            <asp:Image runat="server" Height="3.5em" ImageAlign="Top" ImageUrl="~/Images/hermien500.png" ToolTip="Click me" />
+                            <asp:Image runat="server" Height="2.5em" ImageAlign="Top" ImageUrl="~/Images/hermien500.png" ToolTip="Click me" />
                         </a>
                     </ul>
                     <div> 

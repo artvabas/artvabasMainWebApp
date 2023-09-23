@@ -36,14 +36,14 @@ Version: 1.0
 	<default_data>
 		<paragraph><!--node 2-->
 			artvabas is gespecialiseerd in het ontwikkelen van software oplossingen voor non-profit organisaties en particulieren. 
-			Niet alleen voor het ontwikkelen van de software, maar ook voor softwareonderhoud, hosting en softwarenetwerken.
+			Niet alleen voor het ontwikkelen van de software, maar ook voor software-onderhoud, hosting en software-netwerken.
 		</paragraph>
 	</default_data>
 	<default_data>
 		<paragraph><!--node 3-->
-			Maar het belangrijkste is dat je altijd de controle hebt. U bepaalt zelf wat en hoe u het wilt, en hoe ver onze 
-			service voor u kan gaan. Dit alles voor een goede prijs, soms alleen voor de kosten of zelfs gratis. Ja, we zijn 
-			leuk-gek maar zeer professioneel, open en transparant. En waarom? Heb ik je niet verteld over de geit!
+			Maar het belangrijkste is dat u altijd de controle heeft. U bepaalt zelf wat en hoe u het wilt, en hoe ver onze 
+			service voor u mag gaan. Dit alles voor een goede prijs, soms alleen voor de kosten of zelfs gratis. Ja, we zijn 
+			leuk-gek maar zeker zeer professioneel, open en transparant. En waarom? Heb ik u het niet verteld, over de geit!
 		</paragraph>
 	</default_data>
 	<default_data>
@@ -54,8 +54,8 @@ Version: 1.0
 	</default_data>
 	<default_data>
 		<paragraph><!--node 6-->
-			Hoe het werkt? Vul het contactformulier in of stuur ons een e-mail met uw wensen. We nemen contact met je op voor een 
-			kort interview om te zien als we al uw wensen begrijpen. Dan...
+			Hoe het werkt? Vul het contactformulier in of stuur ons een e-mail met uw wensen. We nemen dan contact met u op voor een 
+			kort interview om te zien of artvabas al uw wensen begrijpt. Dan...
 		</paragraph>
 	</default_data>
 	<default_data>
@@ -105,8 +105,8 @@ Version: 1.0
 		<paragraph><!--index 3-->
 			artvabas doel is om non-profit organisaties en individuen te helpen met hun software en ICT gerelateerde ideeën of 
 			problemen. Dit op een semi Non-profit basis, het enige wat artvabas vraagt is een kleine donatie voor uw waardering. 
-			Alleen de kosten van Internet gerelateerde diensten, zoals het hosten van databases of cloud gerelateerde netwerken, 
-			enz. Deze kosten worden volledig aan u gefactureerd, zonder enige winst van onze kant 
+			Behalve de kosten van Internet gerelateerde diensten, zoals het hosten van databases of cloud gerelateerde netwerken, 
+			enz. Deze kosten worden volledig aan u gefactureerd, zonder enige winst van artvabas zijn kant 
 			(zie ook
 		</paragraph>
 	</about_data>
@@ -119,7 +119,7 @@ Version: 1.0
 	<about_data>
 		<paragraph><!--index 6-->
 			Want veel non-profit organisaties, zoals; sportclubs, publieke organisatie, stichting van openbaar nut, openbare 
-			instelling, vaak moeten werken met niet geperfectioneerde software of ICT-gerelateerde structuren. De belangrijkste 
+			instelling, moeten vaak werken met niet geperfectioneerde software of ICT-gerelateerde structuren. De belangrijkste 
 			reden hiervoor is vaak geld of de kennis. Ze hebben vaak niet de mogelijkheid om professionals in te huren voor het 
 			ontwikkelen van de software die ze nodig hebben of voor andere ICT-gerelateerde oplossingen. En het is altijd goed om 
 			iets terug te doen voor de maatschappij, daarom doet artvabas dit als vrijwilligerswerk.
@@ -132,7 +132,7 @@ Version: 1.0
 		<paragraph>
 			<!--index 8-->
 			artvabas kan allerlei soorten software ontwikkelen en onderhouden; mobiel (telefoon, tablet), desktop en 
-			webapplicaties. Maar ook databases, IoT (Internet of Things) en Cloud oplossingen.
+			web-applicaties. Maar ook databases, IoT (Internet of Things) en Cloud oplossingen.
 		</paragraph>
 	</about_data>
 
@@ -217,9 +217,9 @@ Version: 1.0
 	<getstarted_data><!-- index 3-->
 		<paragraph>
 			Het is belangrijk om dit in gedachten te houden, want het ontwikkelen van een applicatie omwille van het hebben van 
-			een applicatie heeft geen toegevoegde waarde. Natuurlijk, als u erop staat en wilt dat artvabas met al uw kracht een 
+			een applicatie heeft geen toegevoegde waarde. Natuurlijk, als u erop staat en wilt dat artvabas perse een 
 			applicatie ontwikkelt, dan zal artvabas deze natuurlijk voor u ontwikkelen. Toch is het zonde als de applicatie aan 
-			het "verstoffen" is in bijvoorbeeld je apparaat of in een soort applicatiewinkel.
+			het "verstoffen" is in bijvoorbeeld je apparaat of in een soort applicatie-winkel.
 		</paragraph>
 	</getstarted_data>
 	<getstarted_data>
@@ -227,7 +227,7 @@ Version: 1.0
 	</getstarted_data>
 	<getstarted_data><!-- index 5-->
 		<paragraph>
-			Met de vragen; Wat de applicatie moet kunnen? Wie de eindgebruikers van de applicatie zullen zijn? Welk doel de 
+			Met de antwoorden op; Wat de applicatie moet kunnen? Wie de eindgebruikers van de applicatie zullen zijn? Welk doel de 
 			applicatie heeft? Wordt vaak duidelijk wat voor soort applicatie er gebouwd gaat worden. Dit kan bijvoorbeeld zijn; 
 			een applicatie voor het Windows-platform (desktop/laptop/tablet), voor de iPhone of iPad (iOS-platform), 
 			een applicatie die geschikt is voor het Android-platform (mobiel / tablet) of een applicatie wat op	meerderen of alle 
@@ -236,8 +236,8 @@ Version: 1.0
 	</getstarted_data>
 	<getstarted_data><!-- index 6-->
 		<paragraph>
-			Wat ook mogelijk is, is het ontwikkelen van een webapplicatie. Het grote voordeel van een webapplicatie is dat het 
-			platform onafhankelijk gebruikt kan worden. En alles wat je nodig hebt is een recente browser en een enigszins 
+			Wat ook mogelijk is, is het ontwikkelen van een web-applicatie. Het grote voordeel van een web-applicatie is dat het 
+			platform onafhankelijk gebruikt kan worden. En enige wat u nodig hebt is een recente browser en een enigszins 
 			fatsoenlijke internetverbinding. Gelukkig leven we in een wereld waarin dat geen probleem meer hoeft te zijn. 
 			Zowel thuis, onderweg als op kantoor is iedereen tegenwoordig online.
 		</paragraph>
@@ -247,8 +247,8 @@ Version: 1.0
 	</getstarted_data>
 	<getstarted_data><!-- index 8-->
 		<paragraph_start>
-			Nadat u hebt uitgezocht, wat voor soort en het doel wat uw applicatie moet zijn en moet doen. Kunt u contact opnemen met 
-			artvabas door in te vullen het contactformulier op de
+			Nadat u hebt uitgezocht, wat voor soort en wat voor doel uw applicatie moet zijn. Kunt u contact opnemen met 
+			artvabas door het in vullen van het contactformulier op de
 		</paragraph_start>
 	</getstarted_data>
 	<getstarted_data>
@@ -260,17 +260,17 @@ Version: 1.0
 	<getstarted_data><!-- index 11-->
 		<paragraph>
 			Wanneer artvabas uw aanvraag heeft ontvangen, neemt artvabas contact met u op voor een gesprek over de applicatie die 
-			u wilt laten bouwen. Dan zal artvabas een soort blauwdrukken maken van uw aanvraag, blauwdrukken van; visualisatie, 
-			data/communicatiestromen, externe kosten en eventuele anderen indien nodig.
+			u wilt laten bouwen. Daarna zal artvabas een soort van blauwdrukken maken van uw aanvraag, blauwdrukken van; visualisatie, 
+			data/communicatiestromen, externe kosten en van eventuele andere benodigheden.
 		</paragraph>
 	</getstarted_data>
 	<getstarted_data><!-- index 12-->
 		<paragraph>
-			Wanneer deze blauwdrukken klaar zijn, zal artvabas een afspraak met u (en uw andere deelnames) maken om de 
+			Wanneer deze blauwdrukken klaar zijn, zal artvabas een afspraak met u maken om de 
 			blauwdrukken te presenteren. Houd er rekening mee dat dit slechts blauwdrukken zijn, alles kan nog worden veranderd. 
 			Na uw feedback gaat artvabas terug naar de tekentafel en verandert de blauwdrukken waar nodig. Dan maakt artvabas een 
 			nieuwe afspraak om de aangepaste blauwdrukken te presenteren, indien nodig kunnen kleine aanpassing gedaan worden. 
-			Dan is het aan jou om artvabas de goedkeuring te geven om uw aanvraag te ontwikkelen.
+			Dan is het aan u om artvabas de goedkeuring te geven om uw aanvraag te ontwikkelen.
 		</paragraph>
 	</getstarted_data>
 	<getstarted_data>
@@ -278,10 +278,9 @@ Version: 1.0
 	</getstarted_data>
 	<getstarted_data><!-- index 14-->
 		<paragraph>
-			Na uw goedkeuring en ontvangst van uw donatie en betaling van andere kosten, begint artvabas met het ontwikkelen van 
+			Na uw goedkeuring en ontvangst van uw donatie en betaling van eventuele andere kosten, begint artvabas met het ontwikkelen van 
 			uw applicatie. Tijdens de ontwikkeling kunt U online de voortgang van uw aanvraag volgen. U kunt zelfs anticiperen op 
-			de voortgang door opmerkingen te plaatsen over de voortgang, problemen oplossigen of laat artvabas weten dat u wilt dat er 
-			enkele wijzigingen worden aangebracht.
+			de voortgang, zo kunt u tijdens het ontwikkelen nog veranderingen aangeven.
 		</paragraph>
 	</getstarted_data>
 	<getstarted_data>
@@ -289,11 +288,11 @@ Version: 1.0
 	</getstarted_data>
 	<getstarted_data><!-- index 16-->
 		<paragraph_start>
-			Nadat de ontwikkeling is voltooid, is de alfaversie van uw toepassing klaar voor interne tests. Nu is het melden en 
+			Nadat de ontwikkeling is voltooid, is de alfa-versie van uw applicatie klaar voor interne tests. Nu is het melden en 
 			oplossen van bugs een van de belangrijke dingen om te doen, nog steeds kunnen kleine veranderingen gemaakt worden. 
-			Wanneer alle bugs zijn opgelost en uw applicatie soepel draait, is het tijd voor de bètaversie van uw applicatie. 
-			In deze fase wordt extern testen alleen gedaan voor het melden en oplossen van bugs. Wanneer alle bugs zijn opgelost, 
-			dan kan eindelijk de releaseversie van uw applicatie worden gepubliceerd. Vanaf dit moment is de garantieperiode van 
+			Wanneer alle bugs zijn opgelost en uw applicatie soepel draait, is het tijd voor de bèta-versie van uw applicatie. 
+			In deze versie worden alleen nog, als ze voorkomen, bugs gerapporteerd en opgelost. Wanneer alle bugs zijn opgelost, 
+			kan eindelijk de release-versie van uw applicatie worden gepubliceerd. Vanaf dit moment is de garantie-periode van 
 			twee jaar ingegaan, zie het garantiegedeelte op de
 		</paragraph_start>
 	</getstarted_data>
@@ -419,7 +418,7 @@ Version: 1.0
 	</aftercare_data>
 	<aftercare_data><!-- node 27-->
 		<paragraph_start>
-			Na twee jaar garantie is het aan jou wat je wilt doen. Van niets tot en met voordelen halen uit een van de 
+			Na twee jaar garantie is het aan u wat u wilt doen. Van niets tot en met voordelen halen uit een van de 
 			onderhoudsprogramma's wat artvabas u te bieden heeft. Ze zijn allemaal op donatiebasis (zie ook
 		</paragraph_start>
 	</aftercare_data>
@@ -428,9 +427,9 @@ Version: 1.0
 	</aftercare_data>
 	<aftercare_data><!-- node 29-->
 		<paragraph_end>
-			), houd er rekening mee; De onderhoudsprogramma's zijn alleen voor software wat artvabas heeft ontwikkeld. 
-			En voor hardware, netwerk en communicatie gerelateerde onderdelen, wat nodig is om de software goed te laten 
-			draaien en wat onder toezicht staat van artvabas.
+			), houd er rekening mee: De onderhoudsprogramma's zijn alleen voor software wat artvabas heeft ontwikkeld. 
+			En voor netwerk en communicatie gerelateerde onderdelen, wat nodig is om de software goed te laten 
+			draaien en door artvabas geleverd/verzorgd is en alleen als deze onder toezicht staan van artvabas.
 		</paragraph_end>
 	</aftercare_data>
 
@@ -605,7 +604,7 @@ Version: 1.0
 	</donation_data>
 	<donation_data>
 		<paragraph><!--node 2-->
-			Deze geweldige service die Artvabas u biedt, kost niet veel, het is bijna kostenloos. 
+			Deze geweldige service die artvabas u aan biedt, kost niet veel, het is bijna kostenloos. 
 			We vragen slechts een kleine donatie voor de inspanning wat artvabas voor u gedaan heeft, 
 			het is meer als een waardering van u aan artvabas:
 		</paragraph>
@@ -646,13 +645,13 @@ Version: 1.0
 		<paragraph><!--node 12-->
 			Afhankelijk van de mogelijkheden van uw toepassing, kan het zijn dat er een netwerk, vaak virtueel, nodig is. Meestal zijn deze vereisten cloudgebaseerd. 
 			Als dit het geval is, betekent dit dat dit op maandelijkse of jaarlijkse basis moet worden ingehuurd (of betalen aan de hand van verbruik).
-			Deze kosten worden volledig aan u in rekening gebracht. U kunt ervoor kiezen om dit alleen of via artvabas aan te schaffen. 
+			Deze kosten worden volledig aan u in rekening gebracht. U kunt ervoor kiezen om dit zelf of via artvabas aan te schaffen. 
 			artvabas berekent geen winst op deze kosten, u betaalt wat artvabas betaalt.
 		</paragraph>
 	</donation_data>
 	<donation_data>
 		<paragraph><!--node 13-->
-			Wat je ook kiest, het is aan u. Indien nodig begeleidt artvabas u bij het inrichten van de omgeving, wat nodig is om de applicatie te laten draaien.
+			Wat u ook kiest, het is aan u. Indien nodig begeleidt artvabas u bij het inrichten van de omgeving, voor alleen wat nodig is om de applicatie te laten draaien.
 		</paragraph>
 	</donation_data>
 

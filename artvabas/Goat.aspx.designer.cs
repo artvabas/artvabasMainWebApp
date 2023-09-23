@@ -24,30 +24,48 @@ namespace artvabas
         protected global::System.Web.UI.WebControls.Wizard Wizard1;
 
         /// <summary>
-        /// WizardStep1 control.
+        /// WizardStepFSDocTool control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep WizardStep1;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStepFSDocTool;
 
         /// <summary>
-        /// WizardStep2 control.
+        /// WizardStepFSDocToolUpdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep WizardStep2;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStepFSDocToolUpdate;
 
         /// <summary>
-        /// WizardStep3 control.
+        /// WizardStepFSDocToolUpdateOption control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep WizardStep3;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStepFSDocToolUpdateOption;
+
+        /// <summary>
+        /// WizardStepISAHelp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStepISAHelp;
+
+        /// <summary>
+        /// WizardStepFSWorkFlow control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStepFSWorkFlow;
     }
 }
