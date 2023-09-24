@@ -1,10 +1,13 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Web;
-using System.Web.Optimization;
-//using System.Web.UI;
-
+﻿using System.Web.Optimization;
+/*************************************************************
+ * BundleConfig.cs
+ * 
+ * Is auto generated.
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+ * 
+ * (c) 2023, artvabas
+ * ***********************************************************/
 namespace artvabas
 {
     public class BundleConfig

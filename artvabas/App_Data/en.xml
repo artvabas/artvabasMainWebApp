@@ -6,6 +6,7 @@ Developed by AvB, aliases Uther, UPendragon.
 Date   : 07-2023
 Version: 1.0
 
+Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
 (c) 2023, artvabas
 -->
 <root>
@@ -639,5 +640,71 @@ Version: 1.0
 		<see_also_button>Aftercare</see_also_button><!-- node 16-->
 	</donation_data>
 
+	<!--Gaot.aspx-->
+
+	<goat_data>
+		<title>It's all about the goat!</title><!-- node 0-->
+	</goat_data>
+	<goat_data>
+		<header>What artvabas has been developed so far</header><!-- node 1-->
+	</goat_data>
+	<goat_data>
+		<paragraph><!-- node 2-->
+			Beside this web-page artvabas has developed some Window based applications, see the presentation bellow.
+		</paragraph>
+	</goat_data>
+	
+	<goat_data>
+		<wizard_paragraph><!-- node 3-->
+			Field Service Documentation tool. Spacial made for field engineers, so that all the
+			documentation, business applications and many other things are at one application.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph><!-- node 4-->
+			To make sure everything will keep up-to-date, artvabas also made an update application for the
+			Field Service Documentation Tool what you saw in the previous picture.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph><!-- node 5-->
+			In this pictures you see the options dialog of the update application, as you can see artvabas
+			make sure everything is secured.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph><!-- node 6-->
+			ISA help, ISA stands for International Spelling Alphabet. When user
+			enter a word or sentence, the application ISA help will show a list how to spell the word or sentence in NATO Phonetic Alphabet.
+			It even show how to pronounce the NATO Phonetic word.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph><!-- node 7-->
+			Field Services Work flow application. Made for planning jobs for field services employees.
+		</wizard_paragraph>
+	</goat_data>
+
+	<goat_data>
+		<header>What artvabas is working on</header><!-- node 8-->
+	</goat_data>
+	<goat_data>
+		<paragraph><!-- node 9-->
+			CafeCare application; this will be C++ written application spacial made for a Repair Cafe. It will be used for maintaining
+			customers, repair history, invoices, warehouse stock and much more.
+		</paragraph>
+	</goat_data>
+	<goat_data>
+		<paragraph><!-- node 10-->
+			artvabasOS; when artvabas have some time left, artvabas is building its own Operating System, mainly programmed in assembly
+			and C/C++ as supporting languages.
+		</paragraph>
+	</goat_data>
+	<goat_data>
+		<paragraph><!-- node 11-->
+			And in the meantime the maintenance of this website written in C#, HTML and CSS.
+		</paragraph>
+	</goat_data>
+	
 </root>
 

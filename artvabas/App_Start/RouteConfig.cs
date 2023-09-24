@@ -1,9 +1,14 @@
-//using System;
-//using System.Collections.Generic;
-//using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
-
+/*************************************************************
+ * RouteConfig.cs
+ * 
+ * Is auto generated.
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+ * 
+ * (c) 2023, artvabas
+ * ***********************************************************/
 namespace artvabas
 {
     public static class RouteConfig

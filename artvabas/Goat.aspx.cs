@@ -1,13 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
-
+/**************************************************************
+ * Goat.aspx code-behind.cs page.
+ * 
+ * Not needed, Page_Load() is auto generated.
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+ * 
+ * (c) 2023, artvabas
+ *************************************************************/
 namespace artvabas
 {
-    public partial class Goat : System.Web.UI.Page
+    public partial class Goat : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

@@ -21,6 +21,8 @@
  * Date        : 07-20123
  * Version     : 1.0
  * 
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
  * (c) 2023, artvabas
  */
 

@@ -6,6 +6,7 @@ Developed by AvB, aliases Uther, UPendragon.
 Date   : 07-2023
 Version: 1.0
 
+Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
 (c) 2023, artvabas
 -->
 <root>
@@ -664,5 +665,84 @@ Version: 1.0
 	<donation_data>
 		<see_also_button>Nazorg</see_also_button><!-- node 16-->
 	</donation_data>
-	
+
+	<!--Gaot.aspx-->
+
+	<goat_data>
+		<title>Het draait allemaal om de geit!</title>
+		<!-- node 0-->
+	</goat_data>
+	<goat_data>
+		<header>Wat artvaba's tot nu toe heeft ontwikkeld</header>
+		<!-- node 1-->
+	</goat_data>
+	<goat_data>
+		<paragraph>
+			<!-- node 2-->
+			Naast deze webpagina heeft artvabas een aantal op Windows gebaseerde applicaties ontwikkeld, zie de presentatie hieronder.
+		</paragraph>
+	</goat_data>
+
+	<goat_data>
+		<wizard_paragraph>
+			<!-- node 3-->
+			Field Service Documentatie tool. Speciaal gemaakt voor buitendienst medewerkers, zodat alle
+			documentatie, bedrijfsapplicaties en vele andere zaken te benaderen zijn met één applicatie.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph>
+			<!-- node 4-->
+			Om ervoor te zorgen dat alles up-to-date blijft, heeft artvabas ook een update applicatie gemaakt voor de
+			Field Service Documentation Tool, wat u in de vorige afbeelding zag.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph>
+			<!-- node 5-->
+			In deze foto's ziet u het optie dialoogvenster van de update toepassing, zoals u kunt zien zorg artvabas ervoor 
+			dat alles beveiligd is.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph>
+			<!-- node 6-->
+			ISA help, ISA staat voor International Spelling Alfabet Wanneer gebruiker
+			een woord of zin invoert, zal ISA help een lijst tonen hoe het woord of de zin in het NAVO fonetisch alfabet te spellen is.
+			Het laat zelfs zien hoe je NAVO-fonetische woorden moet uitspreken.
+		</wizard_paragraph>
+	</goat_data>
+	<goat_data>
+		<wizard_paragraph>
+			<!-- node 7-->
+			Field Services Work flow applicatie. Gemaakt voor het plannen van taken voor medewerkers van de buitendienst.
+		</wizard_paragraph>
+	</goat_data>
+
+	<goat_data>
+		<header>Waar artvabas aan werkt</header>
+		<!-- node 8-->
+	</goat_data>
+	<goat_data>
+		<paragraph>
+			<!-- node 9-->
+			CafeCare applicatie; dit zal een C ++ geschreven applicatie worden,  speciaal gemaakt voor een Repair Cafe. 
+			Het zal worden gebruikt voor het onderhouden van een klantbestand, reparatiegeschiedenis, facturatie, 
+			magazijnvoorraad en nog veel meer.
+		</paragraph>
+	</goat_data>
+	<goat_data>
+		<paragraph>
+			<!-- node 10-->
+			artvabasOS; wanneer artvabas nog wat tijd over heeft, bouwt artvabas zijn eigen besturingssysteem, voornamelijk 
+			geprogrammeerd in assembly en C/C++.
+		</paragraph>
+	</goat_data>
+	<goat_data>
+		<paragraph>
+			<!-- node 11-->
+			En ondertussen het onderhoud van deze website geschreven in C#, HTML en CSS.
+		</paragraph>
+	</goat_data>
+
 </root>

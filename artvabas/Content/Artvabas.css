@@ -1,4 +1,17 @@
-﻿.avb-contact-control {
+﻿/*****************************************************
+    CSS (Cascading Style Sheets)
+    For artvabas.com website.
+    Used for standardization layout of the website
+
+    Developed by AvB, aliases Uther, UPendragon.
+    Date : 09-2023
+    Version: 1.0
+
+    Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+
+    (c) 2023, artvabas
+******************************************************/
+.avb-contact-control {
     width: 300px;
 }
 
@@ -74,11 +87,11 @@
     
 }
 
-.avb-wizzard-paragraph-size{
-    width:600px;
+.avb-wizard-paragraph-size{
+    width:400px;
 }
 
-.avb-wizzard-size{
-    width:500px;
+.avb-wizard-size{
+    width:400px;
     height:600px;
 }

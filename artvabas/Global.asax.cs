@@ -1,11 +1,17 @@
 ﻿using System;
-//using System.Collections.Generic;
-//using System.Linq;
 using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
-//using System.Web.Security;
-//using System.Web.SessionState;
+
+/*************************************************************
+ * Global.asax.cs page.
+ * 
+ * is auto generated.
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+ * 
+ * (c) 2023, artvabas
+ *************************************************************/
 
 namespace artvabas
 {

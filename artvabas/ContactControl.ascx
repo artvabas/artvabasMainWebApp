@@ -1,4 +1,11 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ContactControl.ascx.cs" Inherits="artvabas.ContactControl" %>
+<%--
+    Using XML language data file to load content and Resonse.Writer to build up this page.
+
+    This is the contact form, what is showed on the Contact.aspx page.
+
+    Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+    (c) 2023, artvabas'--%>
 <% 
     System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
     xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));

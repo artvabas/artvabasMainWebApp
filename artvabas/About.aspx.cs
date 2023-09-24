@@ -1,9 +1,15 @@
-﻿using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Web;
+﻿/**************************************************************
+ * About.aspx code-behind.cs page.
+ * 
+ * Not needed, Page_Load() is auto generated.
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+ * 
+ * (c) 2023, artvabas
+ *************************************************************/
+
+using System;
 using System.Web.UI;
-//using System.Web.UI.WebControls;
 
 namespace artvabas
 {

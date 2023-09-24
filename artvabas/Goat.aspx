@@ -1,73 +1,108 @@
 ﻿<%@ Page Title="Goat" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Goat.aspx.cs" Inherits="artvabas.Goat" %>
+<%--
+    Using XML language data file to load content and Resonse.Writer to build up this page
+    Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+    (c) 2023, artvabas'--%>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
+    <%
+        System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+        xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+        System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("goat_data");
+        System.Xml.XmlNode context;
+        context = dataNode[0];
+        Response.Write("<h2 id=\"title\">" + context["title"].InnerText + "</h2>");
+    %>
         <section class="row" aria-labelledby="goatTitle">
-            <h1>It's all about the goat</h1>
-            <h2>What artvabas has been developed so far</h2>
-            <p class="lead">
-                Beside this web-page artvabas has developed some Window based applications, see the presentation bellow.
-            </p>
+            <%
+                context = dataNode[1];
+                Response.Write("<h1 id=\"goatWhatDevelopedTitle\">" + context["header"].InnerText + "</h1>");
+                context = dataNode[2];
+                Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+            %>
         </section>
         <section aria-labelledby="fsdoctoolTitle">
-            <asp:Wizard CssClass="avb-wizzard-size" ID="Wizard1" runat="server" FinishPreviousButtonType="Link" DisplaySideBar="False" CancelButtonType="Image" FinishCompleteButtonType="Link" StartNextButtonType="Link" StepNextButtonType="Link" StepPreviousButtonType="Link" FinishCompleteButtonText="">
-               <WizardSteps>
+            <asp:Wizard CssClass="avb-wizard-size" ID="WizardWhatDevelopedPresentation" runat="server" FinishPreviousButtonType="Link" DisplaySideBar="False" CancelButtonType="Image" FinishCompleteButtonType="Link" StartNextButtonType="Link" StepNextButtonType="Link" StepPreviousButtonType="Link" FinishCompleteButtonText="" StepPreviousButtonText="<<--" StepNextButtonText="-->>" StartNextButtonText=">>" FinishPreviousButtonText="<<">
+                <WizardSteps>
                    <asp:WizardStep ID="WizardStepFSDocTool" runat="server">
                         <section class="col-md-4" aria-labelledby="fsdoctoolTitle">
                             <img class="avb-goat-cell-allign" src="Images/fsdoctool.png" />
-                             <p class="card; avb-wizzard-paragraph-size">Field Service Documentation tool. Spacial made for field engineers, so that all the
-                                 documentation, business applications and many other things are at one application. 
-                             </p>
+                            <%
+                                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                                System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("goat_data");
+                                System.Xml.XmlNode context;
+                                context = dataNode[3];
+                                Response.Write("<p class=\"card; avb-wizard-paragraph-size\">" + context["wizard_paragraph"].InnerText + "</p>");
+                            %>
                         </section>
                    </asp:WizardStep>
                    <asp:WizardStep ID="WizardStepFSDocToolUpdate" runat="server">
                         <section class="col-md-4" aria-labelledby="fsdoctoolupaterTitle">
                             <img class="avb-goat-cell-allign" src="Images/fsupdater.png" />
-                             <p class="card; avb-wizzard-paragraph-size">To make sure everything will keep up-to-date, artvabas also made an update application for the
-                                 Field Service Documentation Tool what you saw in the previous picture.
-                             </p>
+                            <%
+                                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                                System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("goat_data");
+                                System.Xml.XmlNode context;
+                                context = dataNode[4];
+                                Response.Write("<p class=\"card; avb-wizard-paragraph-size\">" + context["wizard_paragraph"].InnerText + "</p>");
+                            %>
                         </section>
                    </asp:WizardStep>
                    <asp:WizardStep ID="WizardStepFSDocToolUpdateOption" runat="server">
                         <section class="col-md-4" aria-labelledby="fsdoctoolupateroptionTitle">
                             <img class="avb-goat-cell-allign" src="Images/fsupdateroptions.png" />
-                            <p class="card; avb-wizzard-paragraph-size">In this pictures you see the options dialog of the update application, as you can see artvabas
-                                make sure everything is secured.
-                            </p>
+                            <%
+                                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                                System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("goat_data");
+                                System.Xml.XmlNode context;
+                                context = dataNode[5];
+                                Response.Write("<p class=\"card; avb-wizard-paragraph-size\">" + context["wizard_paragraph"].InnerText + "</p>");
+                            %>
                         </section>
                    </asp:WizardStep>
                    <asp:WizardStep ID="WizardStepISAHelp" runat="server">
                         <section class="col-md-4" aria-labelledby="isahelpTitle">
                             <img class="avb-goat-cell-allign" src="Images/isahelp.png" />
-                            <p class="card; avb-wizzard-paragraph-size">ISA help, ISA stands for International Spelling Alphabet. When user
-                                enter a word or sentence, the application ISA help will show a list how to spell the word or sentence in NATO Phonetic Alphabet.
-                                It even show how to pronounce the NATO Phonetic word.
-                             </p>
+                            <%
+                                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                                System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("goat_data");
+                                System.Xml.XmlNode context;
+                                context = dataNode[6];
+                                Response.Write("<p class=\"card; avb-wizard-paragraph-size\">" + context["wizard_paragraph"].InnerText + "</p>");
+                            %>
                         </section>
                     </asp:WizardStep>
                     <asp:WizardStep ID="WizardStepFSWorkFlow" runat="server">
                         <section class="col-md-4" aria-labelledby="fsdworkflowTitle">
                             <img class="avb-goat-cell-allign" src="Images/fsworkflow.png" />
-                            <p class="card; avb-wizzard-paragraph-size">Field Services Work flow application. Made for planning jobs for field services employees.
-                             </p>
+                            <%
+                                System.Xml.XmlDocument xmlDoc = new System.Xml.XmlDocument();
+                                xmlDoc.Load(Server.MapPath(artvabas.CultureLanguage.GetCultureLanguageDataFile()));
+                                System.Xml.XmlNodeList dataNode = xmlDoc.GetElementsByTagName("goat_data");
+                                System.Xml.XmlNode context;
+                                context = dataNode[7];
+                                Response.Write("<p class=\"card; avb-wizard-paragraph-size\">" + context["wizard_paragraph"].InnerText + "</p>");
+                            %>
                         </section>
                     </asp:WizardStep>
                </WizardSteps>
            </asp:Wizard>
         </section>
        <section class="row" aria-labelledby="goatWhatsNew">
-            <h1>Projects working on</h1>
-            <h2>What artvabas is working on</h2>
-            <p class="lead">
-                CafeCare application; this will be C++ written application spacial made for a Repair Cafe. It will be used for maintaining
-                customers, repair history, invoices, warehouse stock and much more.
-            </p>
-            <p class="lead">
-                artvabasOS; when artvabas have some time left, artvabas is building its own Operating System, mainly programmed in assembly
-                and C/C++ as supporting languages.
-            </p>
-            <p class="lead">
-                And in the meantime the maintenance of this website.
-            </p>
+           <%
+               context = dataNode[8];
+               Response.Write("<h2 id=\"goatWhatWorkingOnTitle\">" + context["header"].InnerText + "</h2>");
+               context = dataNode[9];
+               Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+               context = dataNode[10];
+               Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+               context = dataNode[11];
+               Response.Write("<p class=\"lead\">" + context["paragraph"].InnerText + "</p>");
+           %>
         </section>
     </main>
 </asp:Content>

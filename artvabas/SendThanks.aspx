@@ -1,5 +1,9 @@
 ﻿<%@ Page Title="Send Thanks" Language="C#" AutoEventWireup="true" CodeBehind="SendThanks.aspx.cs" Inherits="artvabas.SendThanks" %>
+<%--
+    This page is showed when sending the contact form on the Contact.aspx page have succeed.
 
+    Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+    (c) 2023, artvabas'--%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

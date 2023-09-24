@@ -1,5 +1,10 @@
 ﻿<%@ Page Title="Send Error" Language="C#" AutoEventWireup="true" CodeBehind="SendError.aspx.cs" Inherits="artvabas.SendError" %>
+<%--
+    This page is showed when an error occurred when trying to send the contact form on
+    the Contact.aspx page.
 
+    Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+    (c) 2023, artvabas'--%>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

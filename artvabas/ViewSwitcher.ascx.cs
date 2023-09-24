@@ -1,15 +1,20 @@
 using System;
-//using System.Collections.Generic;
-//using System.Linq;
 using System.Web;
 using System.Web.Routing;
-//using System.Web.UI;
-//using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls.Resolvers;
-
+using System.Web.UI;
+/**************************************************************
+ * ViewSwitcher.ascx code-behind.cs unser control.
+ * 
+ * Not needed, Page_Load() is auto generated.
+ * 
+ * Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+ * 
+ * (c) 2023, artvabas
+ *************************************************************/
 namespace artvabas
 {
-    public partial class ViewSwitcher : System.Web.UI.UserControl
+    public partial class ViewSwitcher : UserControl
     {
         protected string CurrentView { get; private set; }
 

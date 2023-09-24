@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="Get Started" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="GetStarted.aspx.cs" Inherits="artvabas.GetStarted" %>
-
+<%--
+    Using XML language data file to load content and Resonse.Writer to build up this page
+    Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+    (c) 2023, artvabas'--%>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <% 

@@ -1,4 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Dutch language XML file, used for ContactControl.ascx
+For the kind-of drop-down list options.
+
+Developed by AvB, aliases Uther, UPendragon.
+Date   : 07-2023
+Version: 1.0
+
+Licensed under MIT (https://github.com/artvabas/artvabasMainWebApp/blob/master/License)
+(c) 2023, artvabas
+-->
 <root>
 	<contact_kindof_ddl>
 		<option>Mobiel (smart phone/tablet)</option>
